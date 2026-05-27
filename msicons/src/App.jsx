@@ -73,7 +73,7 @@ function SearchPage() {
       <div className="welcome-banner">
         <div className="welcome-inner">
           <p>
-            A community-built icon browser for Microsoft Azure architecture icons, helping you find,
+            A community-built icon browser for Microsoft architecture icons, helping you find,
             preview, and download the icons you need for diagrams, documentation, and presentations.
             This is a personal project by Microsoft MVP{' '}
             <a href="https://www.linkedin.com/in/danielbradley2/" target="_blank" rel="noopener noreferrer">
