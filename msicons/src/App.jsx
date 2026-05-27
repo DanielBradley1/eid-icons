@@ -1,9 +1,18 @@
-import { useState, useMemo, useCallback } from 'react'
+import { useMemo, useCallback } from 'react'
+import { BrowserRouter, Routes, Route, useSearchParams } from 'react-router-dom'
 import icons from './data/icons.json'
 import Header from './components/Header'
 import IconGrid from './components/IconGrid'
-import DownloadModal from './components/DownloadModal'
+import Footer from './components/Footer'
+import ComparePanel from './components/ComparePanel'
+import IconPage from './pages/IconPage'
+import AboutPage from './pages/AboutPage'
+import ContactPage from './pages/ContactPage'
+import FavoritesPage from './pages/FavoritesPage'
+import { FavoritesProvider } from './context/FavoritesContext'
+import { CompareProvider } from './context/CompareContext'
 import { formatCategory } from './utils/format'
+import { searchIcons } from './utils/search'
 import './App.css'
 
 const ICONS_PER_PAGE = 80
@@ -12,48 +21,69 @@ const allCategories = [...new Set(icons.map(i => i.category))].sort((a, b) =>
   a.localeCompare(b)
 )
 
-function App() {
-  const [search, setSearch] = useState('')
-  const [category, setCategory] = useState('all')
-  const [page, setPage] = useState(1)
-  const [selectedIcon, setSelectedIcon] = useState(null)
+function SearchPage() {
+  const [searchParams, setSearchParams] = useSearchParams()
+
+  const search = searchParams.get('q') || ''
+  const category = searchParams.get('category') || 'all'
+  const page = parseInt(searchParams.get('page') || '1', 10)
 
   const hasFilters = search.trim() !== '' || category !== 'all'
 
-  const clearFilters = useCallback(() => {
-    setSearch('')
-    setCategory('all')
-    setPage(1)
-  }, [])
+  const setSearch = useCallback((val) => {
+    setSearchParams(prev => {
+      const next = new URLSearchParams(prev)
+      if (val) next.set('q', val); else next.delete('q')
+      next.delete('page')
+      return next
+    }, { replace: true })
+  }, [setSearchParams])
 
-  const filtered = useMemo(() => {
-    let result = icons
-    if (category !== 'all') {
-      result = result.filter(i => i.category === category)
-    }
-    if (search.trim()) {
-      const q = search.trim().toLowerCase()
-      result = result.filter(i => i.name.toLowerCase().includes(q))
-    }
-    return result
-  }, [search, category])
+  const setCategory = useCallback((cat) => {
+    setSearchParams(prev => {
+      const next = new URLSearchParams(prev)
+      if (cat !== 'all') next.set('category', cat); else next.delete('category')
+      next.delete('page')
+      return next
+    }, { replace: true })
+  }, [setSearchParams])
+
+  const setPage = useCallback((p) => {
+    setSearchParams(prev => {
+      const next = new URLSearchParams(prev)
+      if (p > 1) next.set('page', String(p)); else next.delete('page')
+      return next
+    }, { replace: true })
+  }, [setSearchParams])
+
+  const clearFilters = useCallback(() => {
+    setSearchParams({}, { replace: true })
+  }, [setSearchParams])
+
+  const filtered = useMemo(() => searchIcons(icons, search, category), [search, category])
 
   const totalPages = Math.ceil(filtered.length / ICONS_PER_PAGE)
   const paginated = filtered.slice((page - 1) * ICONS_PER_PAGE, page * ICONS_PER_PAGE)
 
-  const handleSearch = useCallback((val) => {
-    setSearch(val)
-    setPage(1)
-  }, [])
-
-  const handleCategory = useCallback((cat) => {
-    setCategory(cat)
-    setPage(1)
-  }, [])
-
   return (
     <div className="app">
       <Header />
+
+      {/* Welcome banner */}
+      <div className="welcome-banner">
+        <div className="welcome-inner">
+          <p>
+            A community-built icon browser for Microsoft Azure architecture icons, helping you find,
+            preview, and download the icons you need for diagrams, documentation, and presentations.
+            This is a personal project by Microsoft MVP{' '}
+            <a href="https://www.linkedin.com/in/danielbradley2/" target="_blank" rel="noopener noreferrer">
+              Daniel Bradley
+            </a>
+            , not affiliated with Microsoft in any way. Icons are the property of Microsoft and subject
+            to their respective terms of use.
+          </p>
+        </div>
+      </div>
 
       {/* Search + Filter panel */}
       <div className="search-section">
@@ -69,11 +99,11 @@ function App() {
                 className="search-input"
                 placeholder="Search by name, e.g. Virtual Machine, Storage, Kubernetes…"
                 value={search}
-                onChange={e => handleSearch(e.target.value)}
+                onChange={e => setSearch(e.target.value)}
                 aria-label="Search icons"
               />
               {search && (
-                <button className="search-clear" onClick={() => handleSearch('')} aria-label="Clear search">✕</button>
+                <button className="search-clear" onClick={() => setSearch('')} aria-label="Clear search">✕</button>
               )}
             </div>
           </div>
@@ -82,7 +112,7 @@ function App() {
             <select
               className="filter-select"
               value={category}
-              onChange={e => handleCategory(e.target.value)}
+              onChange={e => setCategory(e.target.value)}
               aria-label="Filter by category"
             >
               <option value="all">All Categories</option>
@@ -104,7 +134,6 @@ function App() {
       </div>
 
       <main className="main">
-
         {paginated.length === 0 ? (
           <div className="empty-state">
             <div className="empty-icon">🔍</div>
@@ -112,29 +141,51 @@ function App() {
             <p className="empty-sub">Try a different search term or category</p>
           </div>
         ) : (
-          <IconGrid icons={paginated} onSelect={setSelectedIcon} />
+          <IconGrid icons={paginated} />
         )}
 
         {totalPages > 1 && (
           <div className="pagination">
-            <button disabled={page === 1} onClick={() => setPage(p => p - 1)}>
+            <button disabled={page === 1} onClick={() => setPage(page - 1)}>
               ← Previous
             </button>
             <span>Page {page} of {totalPages}</span>
-            <button disabled={page === totalPages} onClick={() => setPage(p => p + 1)}>
+            <button disabled={page === totalPages} onClick={() => setPage(page + 1)}>
               Next →
             </button>
           </div>
         )}
       </main>
-
-      {selectedIcon && (
-        <DownloadModal icon={selectedIcon} onClose={() => setSelectedIcon(null)} />
-      )}
+      <Footer />
     </div>
   )
 }
 
+function AppInner() {
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<SearchPage />} />
+        <Route path="/favorites" element={<FavoritesPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/:iconSlug" element={<IconPage />} />
+      </Routes>
+      <ComparePanel />
+    </>
+  )
+}
 
+function App() {
+  return (
+    <FavoritesProvider>
+      <CompareProvider>
+        <BrowserRouter>
+          <AppInner />
+        </BrowserRouter>
+      </CompareProvider>
+    </FavoritesProvider>
+  )
+}
 
 export default App
