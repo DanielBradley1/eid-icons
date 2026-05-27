@@ -40,7 +40,7 @@ jobs:
       - name: Build
         # If you use a custom domain, change --base=/ below.
         # If deploying to https://<user>.github.io/eid-icons/ keep --base=/eid-icons/
-        run: npm run build -- --base=/eid-icons/
+        run: npm run build -- --base=/
         working-directory: msicons
 
       - name: Add SPA 404 fallback
