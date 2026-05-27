@@ -34,7 +34,7 @@ jobs:
         working-directory: msicons
 
       - name: Generate icon manifest
-        run: node scripts/generate-manifest.cjs
+        run: node generate-manifest.cjs
         working-directory: msicons
 
       - name: Build
