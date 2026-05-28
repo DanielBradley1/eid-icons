@@ -101,11 +101,16 @@ for (const category of categoryFolders) {
 // Process any extra folders in public/icons/ that were NOT generated from ../icons/
 // (e.g. fabric, agent-365, dynamics-365, power-platform, Copilot-studio)
 const extraFolderMeta = {
-  'fabric':          { category: 'fabric',          slug: 'fabric' },
-  'agent-365':       { category: 'agent 365',        slug: 'agent-365' },
-  'Copilot-studio':  { category: 'copilot studio',   slug: 'Copilot-studio' },
-  'dynamics-365':    { category: 'dynamics 365',     slug: 'dynamics-365' },
-  'power-platform':  { category: 'power platform',   slug: 'power-platform' },
+  'fabric':             { category: 'fabric',             slug: 'fabric' },
+  'agent-365':          { category: 'agent 365',           slug: 'agent-365' },
+  'Copilot-studio':     { category: 'copilot studio',      slug: 'Copilot-studio' },
+  'dynamics-365':       { category: 'dynamics 365',        slug: 'dynamics-365' },
+  'power-platform':     { category: 'power platform',      slug: 'power-platform' },
+  'microsoft-teams':    { category: 'microsoft teams',     slug: 'microsoft-teams' },
+  'Microsoft':          { category: 'microsoft',           slug: 'Microsoft' },
+  'Planner':            { category: 'planner',             slug: 'Planner' },
+  'sharepoint':         { category: 'sharepoint',          slug: 'sharepoint' },
+  'project':            { category: 'project',             slug: 'project' },
 };
 
 for (const [folder, meta] of Object.entries(extraFolderMeta)) {
@@ -117,9 +122,24 @@ for (const [folder, meta] of Object.entries(extraFolderMeta)) {
 
   for (const file of files) {
     const id = file.replace(/\.svg$/, '');
-    const name = toDisplayName(id)
-      // also handle underscore-separated names (fabric icons)
-      || id.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+    let name;
+    if (folder === 'microsoft-teams' || folder === 'Microsoft') {
+      // Files are prefixed: "dark-purple-Apps List Detail" → "Apps List Detail (Dark Purple)"
+      const teamsMatch = id.match(/^(dark-purple|grey-purple|light-purple|dark-blue|grey-blue|light-blue)-(.+)$/i);
+      if (teamsMatch) {
+        const colourLabel = {
+          'dark-purple': 'Dark Purple', 'grey-purple': 'Grey & Purple', 'light-purple': 'Light Purple',
+          'dark-blue': 'Dark Blue', 'grey-blue': 'Grey & Blue', 'light-blue': 'Light Blue',
+        }[teamsMatch[1].toLowerCase()];
+        name = `${teamsMatch[2]} (${colourLabel})`;
+      } else {
+        name = id.replace(/_/g, ' ');
+      }
+    } else {
+      name = toDisplayName(id)
+        // also handle underscore-separated names (fabric icons)
+        || id.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+    }
     icons.push({
       id,
       name,
