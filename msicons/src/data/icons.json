@@ -5031,5 +5031,5164 @@
     "category": "web",
     "slug": "web",
     "path": "/icons/web/10370-icon-service-Azure-Spring-Apps.svg"
+  },
+  {
+    "id": "add_pipeline_non-item",
+    "name": "Add Pipeline Non-Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/add_pipeline_non-item.svg"
+  },
+  {
+    "id": "airplane_filled",
+    "name": "Airplane Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/airplane_filled.svg"
+  },
+  {
+    "id": "airplane_regular",
+    "name": "Airplane Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/airplane_regular.svg"
+  },
+  {
+    "id": "app_folder_pulse_filled",
+    "name": "App Folder Pulse Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/app_folder_pulse_filled.svg"
+  },
+  {
+    "id": "app_folder_pulse_regular",
+    "name": "App Folder Pulse Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/app_folder_pulse_regular.svg"
+  },
+  {
+    "id": "apps_item",
+    "name": "Apps Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/apps_item.svg"
+  },
+  {
+    "id": "arrow_curved_right_circle_filled",
+    "name": "Arrow Curved Right Circle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_curved_right_circle_filled.svg"
+  },
+  {
+    "id": "arrow_curved_right_circle_regular",
+    "name": "Arrow Curved Right Circle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_curved_right_circle_regular.svg"
+  },
+  {
+    "id": "arrow_down_double_filled",
+    "name": "Arrow Down Double Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_down_double_filled.svg"
+  },
+  {
+    "id": "arrow_down_double_regular",
+    "name": "Arrow Down Double Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_down_double_regular.svg"
+  },
+  {
+    "id": "arrow_down_double_wrap_filled",
+    "name": "Arrow Down Double Wrap Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_down_double_wrap_filled.svg"
+  },
+  {
+    "id": "arrow_down_double_wrap_regular",
+    "name": "Arrow Down Double Wrap Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_down_double_wrap_regular.svg"
+  },
+  {
+    "id": "arrow_down_drill_circle_filled",
+    "name": "Arrow Down Drill Circle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_down_drill_circle_filled.svg"
+  },
+  {
+    "id": "arrow_down_drill_circle_regular",
+    "name": "Arrow Down Drill Circle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_down_drill_circle_regular.svg"
+  },
+  {
+    "id": "arrow_exit_multiple_filled",
+    "name": "Arrow Exit Multiple Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_exit_multiple_filled.svg"
+  },
+  {
+    "id": "arrow_exit_multiple_regular",
+    "name": "Arrow Exit Multiple Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_exit_multiple_regular.svg"
+  },
+  {
+    "id": "arrow_export_import_filled",
+    "name": "Arrow Export Import Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_export_import_filled.svg"
+  },
+  {
+    "id": "arrow_export_import_regular",
+    "name": "Arrow Export Import Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_export_import_regular.svg"
+  },
+  {
+    "id": "arrow_forward_circle_filled",
+    "name": "Arrow Forward Circle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_forward_circle_filled.svg"
+  },
+  {
+    "id": "arrow_forward_circle_regular",
+    "name": "Arrow Forward Circle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_forward_circle_regular.svg"
+  },
+  {
+    "id": "arrow_right_double_filled",
+    "name": "Arrow Right Double Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_right_double_filled.svg"
+  },
+  {
+    "id": "arrow_right_double_regular",
+    "name": "Arrow Right Double Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_right_double_regular.svg"
+  },
+  {
+    "id": "arrow_right_double_wrap_filled",
+    "name": "Arrow Right Double Wrap Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_right_double_wrap_filled.svg"
+  },
+  {
+    "id": "arrow_right_double_wrap_regular",
+    "name": "Arrow Right Double Wrap Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_right_double_wrap_regular.svg"
+  },
+  {
+    "id": "arrow_sort_filled",
+    "name": "Arrow Sort Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_sort_filled.svg"
+  },
+  {
+    "id": "arrow_sort_regular",
+    "name": "Arrow Sort Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_sort_regular.svg"
+  },
+  {
+    "id": "arrow_sync_settings_filled",
+    "name": "Arrow Sync Settings Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_sync_settings_filled.svg"
+  },
+  {
+    "id": "arrow_sync_settings_regular",
+    "name": "Arrow Sync Settings Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_sync_settings_regular.svg"
+  },
+  {
+    "id": "arrow_trending_circle_filled",
+    "name": "Arrow Trending Circle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_trending_circle_filled.svg"
+  },
+  {
+    "id": "arrow_trending_circle_regular",
+    "name": "Arrow Trending Circle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/arrow_trending_circle_regular.svg"
+  },
+  {
+    "id": "asterisk_circle_filled",
+    "name": "Asterisk Circle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/asterisk_circle_filled.svg"
+  },
+  {
+    "id": "asterisk_circle_regular",
+    "name": "Asterisk Circle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/asterisk_circle_regular.svg"
+  },
+  {
+    "id": "asterisk_filled",
+    "name": "Asterisk Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/asterisk_filled.svg"
+  },
+  {
+    "id": "asterisk_regular",
+    "name": "Asterisk Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/asterisk_regular.svg"
+  },
+  {
+    "id": "beaker_flash_filled",
+    "name": "Beaker Flash Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/beaker_flash_filled.svg"
+  },
+  {
+    "id": "beaker_flash_regular",
+    "name": "Beaker Flash Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/beaker_flash_regular.svg"
+  },
+  {
+    "id": "binoculars_filled",
+    "name": "Binoculars Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/binoculars_filled.svg"
+  },
+  {
+    "id": "binoculars_regular",
+    "name": "Binoculars Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/binoculars_regular.svg"
+  },
+  {
+    "id": "book_database_filled",
+    "name": "Book Database Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/book_database_filled.svg"
+  },
+  {
+    "id": "book_database_regular",
+    "name": "Book Database Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/book_database_regular.svg"
+  },
+  {
+    "id": "book_open_data_cloud_filled",
+    "name": "Book Open Data Cloud Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/book_open_data_cloud_filled.svg"
+  },
+  {
+    "id": "book_open_data_cloud_regular",
+    "name": "Book Open Data Cloud Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/book_open_data_cloud_regular.svg"
+  },
+  {
+    "id": "bookmark_data_bar_vertical_filled",
+    "name": "Bookmark Data Bar Vertical Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/bookmark_data_bar_vertical_filled.svg"
+  },
+  {
+    "id": "bookmark_data_bar_vertical_regular",
+    "name": "Bookmark Data Bar Vertical Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/bookmark_data_bar_vertical_regular.svg"
+  },
+  {
+    "id": "border_inside_all_filled",
+    "name": "Border Inside All Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/border_inside_all_filled.svg"
+  },
+  {
+    "id": "border_inside_all_regular",
+    "name": "Border Inside All Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/border_inside_all_regular.svg"
+  },
+  {
+    "id": "border_inside_horizontal_filled",
+    "name": "Border Inside Horizontal Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/border_inside_horizontal_filled.svg"
+  },
+  {
+    "id": "border_inside_horizontal_regular",
+    "name": "Border Inside Horizontal Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/border_inside_horizontal_regular.svg"
+  },
+  {
+    "id": "border_inside_vertical_filled",
+    "name": "Border Inside Vertical Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/border_inside_vertical_filled.svg"
+  },
+  {
+    "id": "border_inside_vertical_regular",
+    "name": "Border Inside Vertical Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/border_inside_vertical_regular.svg"
+  },
+  {
+    "id": "border_none_eye_filled",
+    "name": "Border None Eye Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/border_none_eye_filled.svg"
+  },
+  {
+    "id": "border_none_eye_regular",
+    "name": "Border None Eye Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/border_none_eye_regular.svg"
+  },
+  {
+    "id": "bracket_rectangles_filled",
+    "name": "Bracket Rectangles Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/bracket_rectangles_filled.svg"
+  },
+  {
+    "id": "bracket_rectangles_regular",
+    "name": "Bracket Rectangles Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/bracket_rectangles_regular.svg"
+  },
+  {
+    "id": "branch_add_filled",
+    "name": "Branch Add Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/branch_add_filled.svg"
+  },
+  {
+    "id": "branch_add_regular",
+    "name": "Branch Add Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/branch_add_regular.svg"
+  },
+  {
+    "id": "branch_edit_filled",
+    "name": "Branch Edit Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/branch_edit_filled.svg"
+  },
+  {
+    "id": "branch_edit_regular",
+    "name": "Branch Edit Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/branch_edit_regular.svg"
+  },
+  {
+    "id": "branch_fork_link_filled",
+    "name": "Branch Fork Link Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/branch_fork_link_filled.svg"
+  },
+  {
+    "id": "branch_fork_link_regular",
+    "name": "Branch Fork Link Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/branch_fork_link_regular.svg"
+  },
+  {
+    "id": "branch_fork_signal_filled",
+    "name": "Branch Fork Signal Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/branch_fork_signal_filled.svg"
+  },
+  {
+    "id": "branch_fork_signal_regular",
+    "name": "Branch Fork Signal Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/branch_fork_signal_regular.svg"
+  },
+  {
+    "id": "briefcase_pulse_filled",
+    "name": "Briefcase Pulse Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/briefcase_pulse_filled.svg"
+  },
+  {
+    "id": "briefcase_pulse_regular",
+    "name": "Briefcase Pulse Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/briefcase_pulse_regular.svg"
+  },
+  {
+    "id": "briefcase_report_filled",
+    "name": "Briefcase Report Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/briefcase_report_filled.svg"
+  },
+  {
+    "id": "briefcase_report_regular",
+    "name": "Briefcase Report Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/briefcase_report_regular.svg"
+  },
+  {
+    "id": "bucket_filled",
+    "name": "Bucket Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/bucket_filled.svg"
+  },
+  {
+    "id": "bucket_regular",
+    "name": "Bucket Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/bucket_regular.svg"
+  },
+  {
+    "id": "building_data_filled",
+    "name": "Building Data Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/building_data_filled.svg"
+  },
+  {
+    "id": "building_data_regular",
+    "name": "Building Data Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/building_data_regular.svg"
+  },
+  {
+    "id": "building_retail_more_link_filled",
+    "name": "Building Retail More Link Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/building_retail_more_link_filled.svg"
+  },
+  {
+    "id": "building_retail_more_link_regular",
+    "name": "Building Retail More Link Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/building_retail_more_link_regular.svg"
+  },
+  {
+    "id": "calculator_brackets_filled",
+    "name": "Calculator Brackets Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calculator_brackets_filled.svg"
+  },
+  {
+    "id": "calculator_brackets_number_symbol_filled",
+    "name": "Calculator Brackets Number Symbol Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calculator_brackets_number_symbol_filled.svg"
+  },
+  {
+    "id": "calculator_brackets_number_symbol_regular",
+    "name": "Calculator Brackets Number Symbol Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calculator_brackets_number_symbol_regular.svg"
+  },
+  {
+    "id": "calculator_brackets_regular",
+    "name": "Calculator Brackets Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calculator_brackets_regular.svg"
+  },
+  {
+    "id": "calculator_multiple_brackets_filled",
+    "name": "Calculator Multiple Brackets Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calculator_multiple_brackets_filled.svg"
+  },
+  {
+    "id": "calculator_multiple_brackets_number_symbol_filled",
+    "name": "Calculator Multiple Brackets Number Symbol Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calculator_multiple_brackets_number_symbol_filled.svg"
+  },
+  {
+    "id": "calculator_multiple_brackets_number_symbol_regular",
+    "name": "Calculator Multiple Brackets Number Symbol Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calculator_multiple_brackets_number_symbol_regular.svg"
+  },
+  {
+    "id": "calculator_multiple_brackets_regular",
+    "name": "Calculator Multiple Brackets Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calculator_multiple_brackets_regular.svg"
+  },
+  {
+    "id": "calculator_number_symbol_filled",
+    "name": "Calculator Number Symbol Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calculator_number_symbol_filled.svg"
+  },
+  {
+    "id": "calculator_number_symbol_regular",
+    "name": "Calculator Number Symbol Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calculator_number_symbol_regular.svg"
+  },
+  {
+    "id": "calculator_triangle_filled",
+    "name": "Calculator Triangle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calculator_triangle_filled.svg"
+  },
+  {
+    "id": "calculator_triangle_regular",
+    "name": "Calculator Triangle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calculator_triangle_regular.svg"
+  },
+  {
+    "id": "calendar_ltr_clock_filled",
+    "name": "Calendar Ltr Clock Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calendar_ltr_clock_filled.svg"
+  },
+  {
+    "id": "calendar_ltr_clock_regular",
+    "name": "Calendar Ltr Clock Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calendar_ltr_clock_regular.svg"
+  },
+  {
+    "id": "calendar_month_arrow_up_filled",
+    "name": "Calendar Month Arrow Up Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calendar_month_arrow_up_filled.svg"
+  },
+  {
+    "id": "calendar_month_arrow_up_regular",
+    "name": "Calendar Month Arrow Up Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calendar_month_arrow_up_regular.svg"
+  },
+  {
+    "id": "calendar_month_lightning_filled",
+    "name": "Calendar Month Lightning Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calendar_month_lightning_filled.svg"
+  },
+  {
+    "id": "calendar_month_lightning_regular",
+    "name": "Calendar Month Lightning Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calendar_month_lightning_regular.svg"
+  },
+  {
+    "id": "calendar_month_link_filled",
+    "name": "Calendar Month Link Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calendar_month_link_filled.svg"
+  },
+  {
+    "id": "calendar_month_link_regular",
+    "name": "Calendar Month Link Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calendar_month_link_regular.svg"
+  },
+  {
+    "id": "calendar_month_person_filled",
+    "name": "Calendar Month Person Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calendar_month_person_filled.svg"
+  },
+  {
+    "id": "calendar_month_person_regular",
+    "name": "Calendar Month Person Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calendar_month_person_regular.svg"
+  },
+  {
+    "id": "calendar_month_prohibited_filled",
+    "name": "Calendar Month Prohibited Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calendar_month_prohibited_filled.svg"
+  },
+  {
+    "id": "calendar_month_prohibited_regular",
+    "name": "Calendar Month Prohibited Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calendar_month_prohibited_regular.svg"
+  },
+  {
+    "id": "calendar_month_signal_filled",
+    "name": "Calendar Month Signal Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calendar_month_signal_filled.svg"
+  },
+  {
+    "id": "calendar_month_signal_regular",
+    "name": "Calendar Month Signal Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calendar_month_signal_regular.svg"
+  },
+  {
+    "id": "calendar_month_toolbox_filled",
+    "name": "Calendar Month Toolbox Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calendar_month_toolbox_filled.svg"
+  },
+  {
+    "id": "calendar_month_toolbox_regular",
+    "name": "Calendar Month Toolbox Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/calendar_month_toolbox_regular.svg"
+  },
+  {
+    "id": "categorize_filled",
+    "name": "Categorize Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/categorize_filled.svg"
+  },
+  {
+    "id": "categorize_regular",
+    "name": "Categorize Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/categorize_regular.svg"
+  },
+  {
+    "id": "circle_chart_filled",
+    "name": "Circle Chart Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/circle_chart_filled.svg"
+  },
+  {
+    "id": "circle_chart_regular",
+    "name": "Circle Chart Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/circle_chart_regular.svg"
+  },
+  {
+    "id": "circle_group_filled",
+    "name": "Circle Group Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/circle_group_filled.svg"
+  },
+  {
+    "id": "circle_group_regular",
+    "name": "Circle Group Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/circle_group_regular.svg"
+  },
+  {
+    "id": "circle_tree_filled",
+    "name": "Circle Tree Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/circle_tree_filled.svg"
+  },
+  {
+    "id": "circle_tree_regular",
+    "name": "Circle Tree Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/circle_tree_regular.svg"
+  },
+  {
+    "id": "cloud_arrow_up_down_filled",
+    "name": "Cloud Arrow Up Down Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/cloud_arrow_up_down_filled.svg"
+  },
+  {
+    "id": "cloud_arrow_up_down_regular",
+    "name": "Cloud Arrow Up Down Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/cloud_arrow_up_down_regular.svg"
+  },
+  {
+    "id": "cloud_endpoint_filled",
+    "name": "Cloud Endpoint Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/cloud_endpoint_filled.svg"
+  },
+  {
+    "id": "cloud_endpoint_regular",
+    "name": "Cloud Endpoint Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/cloud_endpoint_regular.svg"
+  },
+  {
+    "id": "code_text_flash_filled",
+    "name": "Code Text Flash Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/code_text_flash_filled.svg"
+  },
+  {
+    "id": "code_text_flash_regular",
+    "name": "Code Text Flash Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/code_text_flash_regular.svg"
+  },
+  {
+    "id": "cohort_item",
+    "name": "Cohort Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/cohort_item.svg"
+  },
+  {
+    "id": "column_double_caret_filled",
+    "name": "Column Double Caret Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/column_double_caret_filled.svg"
+  },
+  {
+    "id": "column_double_caret_regular",
+    "name": "Column Double Caret Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/column_double_caret_regular.svg"
+  },
+  {
+    "id": "column_inline_filled",
+    "name": "Column Inline Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/column_inline_filled.svg"
+  },
+  {
+    "id": "column_inline_regular",
+    "name": "Column Inline Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/column_inline_regular.svg"
+  },
+  {
+    "id": "column_relationship_filled",
+    "name": "Column Relationship Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/column_relationship_filled.svg"
+  },
+  {
+    "id": "column_relationship_regular",
+    "name": "Column Relationship Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/column_relationship_regular.svg"
+  },
+  {
+    "id": "column_single_filled",
+    "name": "Column Single Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/column_single_filled.svg"
+  },
+  {
+    "id": "column_single_regular",
+    "name": "Column Single Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/column_single_regular.svg"
+  },
+  {
+    "id": "column_uneven_filled",
+    "name": "Column Uneven Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/column_uneven_filled.svg"
+  },
+  {
+    "id": "column_uneven_regular",
+    "name": "Column Uneven Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/column_uneven_regular.svg"
+  },
+  {
+    "id": "commit_circle_filled",
+    "name": "Commit Circle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/commit_circle_filled.svg"
+  },
+  {
+    "id": "commit_circle_regular",
+    "name": "Commit Circle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/commit_circle_regular.svg"
+  },
+  {
+    "id": "commit_filled",
+    "name": "Commit Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/commit_filled.svg"
+  },
+  {
+    "id": "commit_regular",
+    "name": "Commit Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/commit_regular.svg"
+  },
+  {
+    "id": "connector_filled",
+    "name": "Connector Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/connector_filled.svg"
+  },
+  {
+    "id": "connector_regular",
+    "name": "Connector Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/connector_regular.svg"
+  },
+  {
+    "id": "copilot_color",
+    "name": "Copilot Color",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/copilot_color.svg"
+  },
+  {
+    "id": "copilot_filled",
+    "name": "Copilot Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/copilot_filled.svg"
+  },
+  {
+    "id": "copilot_regular",
+    "name": "Copilot Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/copilot_regular.svg"
+  },
+  {
+    "id": "copy_job_item",
+    "name": "Copy Job Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/copy_job_item.svg"
+  },
+  {
+    "id": "cube_cone_arrow_curved_right_filled",
+    "name": "Cube Cone Arrow Curved Right Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/cube_cone_arrow_curved_right_filled.svg"
+  },
+  {
+    "id": "cube_cone_arrow_curved_right_new_filled",
+    "name": "Cube Cone Arrow Curved Right New Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/cube_cone_arrow_curved_right_new_filled.svg"
+  },
+  {
+    "id": "cube_cone_arrow_curved_right_new_regular",
+    "name": "Cube Cone Arrow Curved Right New Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/cube_cone_arrow_curved_right_new_regular.svg"
+  },
+  {
+    "id": "cube_cone_arrow_curved_right_regular",
+    "name": "Cube Cone Arrow Curved Right Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/cube_cone_arrow_curved_right_regular.svg"
+  },
+  {
+    "id": "cube_cone_arrow_forward_filled",
+    "name": "Cube Cone Arrow Forward Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/cube_cone_arrow_forward_filled.svg"
+  },
+  {
+    "id": "cube_cone_arrow_forward_regular",
+    "name": "Cube Cone Arrow Forward Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/cube_cone_arrow_forward_regular.svg"
+  },
+  {
+    "id": "cube_cone_sphere_filled",
+    "name": "Cube Cone Sphere Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/cube_cone_sphere_filled.svg"
+  },
+  {
+    "id": "cube_cone_sphere_regular",
+    "name": "Cube Cone Sphere Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/cube_cone_sphere_regular.svg"
+  },
+  {
+    "id": "custom_streaming_connector_item",
+    "name": "Custom Streaming Connector Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/custom_streaming_connector_item.svg"
+  },
+  {
+    "id": "dashboard_item",
+    "name": "Dashboard Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/dashboard_item.svg"
+  },
+  {
+    "id": "data_agent_item",
+    "name": "Data Agent Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_agent_item.svg"
+  },
+  {
+    "id": "data_area_location_filled",
+    "name": "Data Area Location Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_area_location_filled.svg"
+  },
+  {
+    "id": "data_area_location_regular",
+    "name": "Data Area Location Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_area_location_regular.svg"
+  },
+  {
+    "id": "data_bar_vertical_diagonal_up_right_filled",
+    "name": "Data Bar Vertical Diagonal Up Right Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_bar_vertical_diagonal_up_right_filled.svg"
+  },
+  {
+    "id": "data_bar_vertical_diagonal_up_right_regular",
+    "name": "Data Bar Vertical Diagonal Up Right Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_bar_vertical_diagonal_up_right_regular.svg"
+  },
+  {
+    "id": "data_bar_vertical_edit_filled",
+    "name": "Data Bar Vertical Edit Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_bar_vertical_edit_filled.svg"
+  },
+  {
+    "id": "data_bar_vertical_edit_regular",
+    "name": "Data Bar Vertical Edit Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_bar_vertical_edit_regular.svg"
+  },
+  {
+    "id": "data_bar_vertical_highlight_filled",
+    "name": "Data Bar Vertical Highlight Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_bar_vertical_highlight_filled.svg"
+  },
+  {
+    "id": "data_bar_vertical_highlight_regular",
+    "name": "Data Bar Vertical Highlight Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_bar_vertical_highlight_regular.svg"
+  },
+  {
+    "id": "data_bar_vertical_lightning_filled",
+    "name": "Data Bar Vertical Lightning Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_bar_vertical_lightning_filled.svg"
+  },
+  {
+    "id": "data_bar_vertical_lightning_regular",
+    "name": "Data Bar Vertical Lightning Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_bar_vertical_lightning_regular.svg"
+  },
+  {
+    "id": "data_bar_vertical_phone_filled",
+    "name": "Data Bar Vertical Phone Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_bar_vertical_phone_filled.svg"
+  },
+  {
+    "id": "data_bar_vertical_phone_regular",
+    "name": "Data Bar Vertical Phone Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_bar_vertical_phone_regular.svg"
+  },
+  {
+    "id": "data_bar_vertical_prohibited_filled",
+    "name": "Data Bar Vertical Prohibited Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_bar_vertical_prohibited_filled.svg"
+  },
+  {
+    "id": "data_bar_vertical_prohibited_regular",
+    "name": "Data Bar Vertical Prohibited Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_bar_vertical_prohibited_regular.svg"
+  },
+  {
+    "id": "data_engineering_color",
+    "name": "Data Engineering Color",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_engineering_color.svg"
+  },
+  {
+    "id": "data_engineering_filled",
+    "name": "Data Engineering Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_engineering_filled.svg"
+  },
+  {
+    "id": "data_engineering_regular",
+    "name": "Data Engineering Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_engineering_regular.svg"
+  },
+  {
+    "id": "data_factory_color",
+    "name": "Data Factory Color",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_factory_color.svg"
+  },
+  {
+    "id": "data_factory_filled",
+    "name": "Data Factory Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_factory_filled.svg"
+  },
+  {
+    "id": "data_factory_item",
+    "name": "Data Factory Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_factory_item.svg"
+  },
+  {
+    "id": "data_factory_regular",
+    "name": "Data Factory Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_factory_regular.svg"
+  },
+  {
+    "id": "data_graph_filled",
+    "name": "Data Graph Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_graph_filled.svg"
+  },
+  {
+    "id": "data_graph_regular",
+    "name": "Data Graph Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_graph_regular.svg"
+  },
+  {
+    "id": "data_histogram_function_filled",
+    "name": "Data Histogram Function Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_histogram_function_filled.svg"
+  },
+  {
+    "id": "data_histogram_function_regular",
+    "name": "Data Histogram Function Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_histogram_function_regular.svg"
+  },
+  {
+    "id": "data_science_color",
+    "name": "Data Science Color",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_science_color.svg"
+  },
+  {
+    "id": "data_science_filled",
+    "name": "Data Science Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_science_filled.svg"
+  },
+  {
+    "id": "data_science_regular",
+    "name": "Data Science Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_science_regular.svg"
+  },
+  {
+    "id": "data_tree_filled",
+    "name": "Data Tree Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_tree_filled.svg"
+  },
+  {
+    "id": "data_tree_regular",
+    "name": "Data Tree Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_tree_regular.svg"
+  },
+  {
+    "id": "data_warehouse_color",
+    "name": "Data Warehouse Color",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_warehouse_color.svg"
+  },
+  {
+    "id": "data_warehouse_filled",
+    "name": "Data Warehouse Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_warehouse_filled.svg"
+  },
+  {
+    "id": "data_warehouse_item",
+    "name": "Data Warehouse Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_warehouse_item.svg"
+  },
+  {
+    "id": "data_warehouse_regular",
+    "name": "Data Warehouse Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/data_warehouse_regular.svg"
+  },
+  {
+    "id": "database_add_filled",
+    "name": "Database Add Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_add_filled.svg"
+  },
+  {
+    "id": "database_add_regular",
+    "name": "Database Add Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_add_regular.svg"
+  },
+  {
+    "id": "database_arrow_forward_filled",
+    "name": "Database Arrow Forward Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_arrow_forward_filled.svg"
+  },
+  {
+    "id": "database_arrow_forward_regular",
+    "name": "Database Arrow Forward Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_arrow_forward_regular.svg"
+  },
+  {
+    "id": "database_arrow_right_enter_filled",
+    "name": "Database Arrow Right Enter Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_arrow_right_enter_filled.svg"
+  },
+  {
+    "id": "database_arrow_right_enter_regular",
+    "name": "Database Arrow Right Enter Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_arrow_right_enter_regular.svg"
+  },
+  {
+    "id": "database_arrow_sync_filled",
+    "name": "Database Arrow Sync Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_arrow_sync_filled.svg"
+  },
+  {
+    "id": "database_arrow_sync_regular",
+    "name": "Database Arrow Sync Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_arrow_sync_regular.svg"
+  },
+  {
+    "id": "database_asterisk_filled",
+    "name": "Database Asterisk Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_asterisk_filled.svg"
+  },
+  {
+    "id": "database_asterisk_regular",
+    "name": "Database Asterisk Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_asterisk_regular.svg"
+  },
+  {
+    "id": "database_checkmark_filled",
+    "name": "Database Checkmark Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_checkmark_filled.svg"
+  },
+  {
+    "id": "database_checkmark_regular",
+    "name": "Database Checkmark Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_checkmark_regular.svg"
+  },
+  {
+    "id": "database_crown_filled",
+    "name": "Database Crown Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_crown_filled.svg"
+  },
+  {
+    "id": "database_crown_regular",
+    "name": "Database Crown Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_crown_regular.svg"
+  },
+  {
+    "id": "database_dismiss_filled",
+    "name": "Database Dismiss Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_dismiss_filled.svg"
+  },
+  {
+    "id": "database_dismiss_regular",
+    "name": "Database Dismiss Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_dismiss_regular.svg"
+  },
+  {
+    "id": "database_globe_filled",
+    "name": "Database Globe Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_globe_filled.svg"
+  },
+  {
+    "id": "database_globe_regular",
+    "name": "Database Globe Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_globe_regular.svg"
+  },
+  {
+    "id": "database_kql_filled",
+    "name": "Database Kql Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_kql_filled.svg"
+  },
+  {
+    "id": "database_kql_regular",
+    "name": "Database Kql Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_kql_regular.svg"
+  },
+  {
+    "id": "database_money_filled",
+    "name": "Database Money Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_money_filled.svg"
+  },
+  {
+    "id": "database_money_regular",
+    "name": "Database Money Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_money_regular.svg"
+  },
+  {
+    "id": "database_multiple_arrow_filled",
+    "name": "Database Multiple Arrow Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_multiple_arrow_filled.svg"
+  },
+  {
+    "id": "database_multiple_arrow_regular",
+    "name": "Database Multiple Arrow Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_multiple_arrow_regular.svg"
+  },
+  {
+    "id": "database_multiple_kql_filled",
+    "name": "Database Multiple Kql Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_multiple_kql_filled.svg"
+  },
+  {
+    "id": "database_multiple_kql_regular",
+    "name": "Database Multiple Kql Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_multiple_kql_regular.svg"
+  },
+  {
+    "id": "database_pulse_filled",
+    "name": "Database Pulse Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_pulse_filled.svg"
+  },
+  {
+    "id": "database_pulse_regular",
+    "name": "Database Pulse Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_pulse_regular.svg"
+  },
+  {
+    "id": "database_ribbon_filled",
+    "name": "Database Ribbon Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_ribbon_filled.svg"
+  },
+  {
+    "id": "database_ribbon_regular",
+    "name": "Database Ribbon Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_ribbon_regular.svg"
+  },
+  {
+    "id": "database_sql_filled",
+    "name": "Database Sql Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_sql_filled.svg"
+  },
+  {
+    "id": "database_sql_regular",
+    "name": "Database Sql Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_sql_regular.svg"
+  },
+  {
+    "id": "database_stack_asterisk_filled",
+    "name": "Database Stack Asterisk Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_stack_asterisk_filled.svg"
+  },
+  {
+    "id": "database_stack_asterisk_regular",
+    "name": "Database Stack Asterisk Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_stack_asterisk_regular.svg"
+  },
+  {
+    "id": "database_stack_pulse_filled",
+    "name": "Database Stack Pulse Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_stack_pulse_filled.svg"
+  },
+  {
+    "id": "database_stack_pulse_regular",
+    "name": "Database Stack Pulse Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_stack_pulse_regular.svg"
+  },
+  {
+    "id": "database_swap_filled",
+    "name": "Database Swap Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_swap_filled.svg"
+  },
+  {
+    "id": "database_swap_regular",
+    "name": "Database Swap Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_swap_regular.svg"
+  },
+  {
+    "id": "database_table_filled",
+    "name": "Database Table Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_table_filled.svg"
+  },
+  {
+    "id": "database_table_regular",
+    "name": "Database Table Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/database_table_regular.svg"
+  },
+  {
+    "id": "databases_color",
+    "name": "Databases Color",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/databases_color.svg"
+  },
+  {
+    "id": "databases_filled",
+    "name": "Databases Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/databases_filled.svg"
+  },
+  {
+    "id": "databases_regular",
+    "name": "Databases Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/databases_regular.svg"
+  },
+  {
+    "id": "dataflow_gen2_item",
+    "name": "Dataflow Gen2 Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/dataflow_gen2_item.svg"
+  },
+  {
+    "id": "dataflow_item",
+    "name": "Dataflow Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/dataflow_item.svg"
+  },
+  {
+    "id": "datamart_item",
+    "name": "Datamart Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datamart_item.svg"
+  },
+  {
+    "id": "datatype_any_filled",
+    "name": "Datatype Any Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_any_filled.svg"
+  },
+  {
+    "id": "datatype_any_regular",
+    "name": "Datatype Any Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_any_regular.svg"
+  },
+  {
+    "id": "datatype_binary_filled",
+    "name": "Datatype Binary Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_binary_filled.svg"
+  },
+  {
+    "id": "datatype_binary_regular",
+    "name": "Datatype Binary Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_binary_regular.svg"
+  },
+  {
+    "id": "datatype_boolean_filled",
+    "name": "Datatype Boolean Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_boolean_filled.svg"
+  },
+  {
+    "id": "datatype_boolean_regular",
+    "name": "Datatype Boolean Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_boolean_regular.svg"
+  },
+  {
+    "id": "datatype_byte_filled",
+    "name": "Datatype Byte Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_byte_filled.svg"
+  },
+  {
+    "id": "datatype_byte_regular",
+    "name": "Datatype Byte Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_byte_regular.svg"
+  },
+  {
+    "id": "datatype_decimal_filled",
+    "name": "Datatype Decimal Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_decimal_filled.svg"
+  },
+  {
+    "id": "datatype_decimal_regular",
+    "name": "Datatype Decimal Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_decimal_regular.svg"
+  },
+  {
+    "id": "datatype_double_filled",
+    "name": "Datatype Double Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_double_filled.svg"
+  },
+  {
+    "id": "datatype_double_regular",
+    "name": "Datatype Double Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_double_regular.svg"
+  },
+  {
+    "id": "datatype_float_filled",
+    "name": "Datatype Float Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_float_filled.svg"
+  },
+  {
+    "id": "datatype_float_regular",
+    "name": "Datatype Float Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_float_regular.svg"
+  },
+  {
+    "id": "datatype_integer_filled",
+    "name": "Datatype Integer Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_integer_filled.svg"
+  },
+  {
+    "id": "datatype_integer_regular",
+    "name": "Datatype Integer Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_integer_regular.svg"
+  },
+  {
+    "id": "datatype_long_filled",
+    "name": "Datatype Long Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_long_filled.svg"
+  },
+  {
+    "id": "datatype_long_regular",
+    "name": "Datatype Long Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_long_regular.svg"
+  },
+  {
+    "id": "datatype_short_filled",
+    "name": "Datatype Short Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_short_filled.svg"
+  },
+  {
+    "id": "datatype_short_regular",
+    "name": "Datatype Short Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_short_regular.svg"
+  },
+  {
+    "id": "datatype_string_filled",
+    "name": "Datatype String Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_string_filled.svg"
+  },
+  {
+    "id": "datatype_string_regular",
+    "name": "Datatype String Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_string_regular.svg"
+  },
+  {
+    "id": "datatype_unique_identifier_filled",
+    "name": "Datatype Unique Identifier Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_unique_identifier_filled.svg"
+  },
+  {
+    "id": "datatype_unique_identifier_regular",
+    "name": "Datatype Unique Identifier Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/datatype_unique_identifier_regular.svg"
+  },
+  {
+    "id": "developer_board_lightning_asterisk_filled",
+    "name": "Developer Board Lightning Asterisk Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/developer_board_lightning_asterisk_filled.svg"
+  },
+  {
+    "id": "developer_board_lightning_asterisk_regular",
+    "name": "Developer Board Lightning Asterisk Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/developer_board_lightning_asterisk_regular.svg"
+  },
+  {
+    "id": "developer_board_lightning_kql_filled",
+    "name": "Developer Board Lightning Kql Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/developer_board_lightning_kql_filled.svg"
+  },
+  {
+    "id": "developer_board_lightning_kql_regular",
+    "name": "Developer Board Lightning Kql Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/developer_board_lightning_kql_regular.svg"
+  },
+  {
+    "id": "developer_board_lightning_sparkle_filled",
+    "name": "Developer Board Lightning Sparkle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/developer_board_lightning_sparkle_filled.svg"
+  },
+  {
+    "id": "developer_board_lightning_sparkle_regular",
+    "name": "Developer Board Lightning Sparkle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/developer_board_lightning_sparkle_regular.svg"
+  },
+  {
+    "id": "diagram_arrow_circle_filled",
+    "name": "Diagram Arrow Circle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/diagram_arrow_circle_filled.svg"
+  },
+  {
+    "id": "diagram_arrow_circle_regular",
+    "name": "Diagram Arrow Circle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/diagram_arrow_circle_regular.svg"
+  },
+  {
+    "id": "diagram_branch_filled",
+    "name": "Diagram Branch Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/diagram_branch_filled.svg"
+  },
+  {
+    "id": "diagram_branch_link_filled",
+    "name": "Diagram Branch Link Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/diagram_branch_link_filled.svg"
+  },
+  {
+    "id": "diagram_branch_link_regular",
+    "name": "Diagram Branch Link Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/diagram_branch_link_regular.svg"
+  },
+  {
+    "id": "diagram_branch_regular",
+    "name": "Diagram Branch Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/diagram_branch_regular.svg"
+  },
+  {
+    "id": "diagram_branch_sync_filled",
+    "name": "Diagram Branch Sync Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/diagram_branch_sync_filled.svg"
+  },
+  {
+    "id": "diagram_branch_sync_regular",
+    "name": "Diagram Branch Sync Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/diagram_branch_sync_regular.svg"
+  },
+  {
+    "id": "document_hint_filled",
+    "name": "Document Hint Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_hint_filled.svg"
+  },
+  {
+    "id": "document_hint_regular",
+    "name": "Document Hint Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_hint_regular.svg"
+  },
+  {
+    "id": "document_multiple_checkmark_filled",
+    "name": "Document Multiple Checkmark Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_multiple_checkmark_filled.svg"
+  },
+  {
+    "id": "document_multiple_checkmark_regular",
+    "name": "Document Multiple Checkmark Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_multiple_checkmark_regular.svg"
+  },
+  {
+    "id": "document_multiple_dax_arrow_diagonal_up_right_filled",
+    "name": "Document Multiple Dax Arrow Diagonal Up Right Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_multiple_dax_arrow_diagonal_up_right_filled.svg"
+  },
+  {
+    "id": "document_multiple_dax_arrow_diagonal_up_right_regular",
+    "name": "Document Multiple Dax Arrow Diagonal Up Right Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_multiple_dax_arrow_diagonal_up_right_regular.svg"
+  },
+  {
+    "id": "document_multiple_dax_filled",
+    "name": "Document Multiple Dax Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_multiple_dax_filled.svg"
+  },
+  {
+    "id": "document_multiple_dax_regular",
+    "name": "Document Multiple Dax Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_multiple_dax_regular.svg"
+  },
+  {
+    "id": "document_multiple_pulse_filled",
+    "name": "Document Multiple Pulse Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_multiple_pulse_filled.svg"
+  },
+  {
+    "id": "document_multiple_pulse_regular",
+    "name": "Document Multiple Pulse Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_multiple_pulse_regular.svg"
+  },
+  {
+    "id": "document_multiple_question_filled",
+    "name": "Document Multiple Question Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_multiple_question_filled.svg"
+  },
+  {
+    "id": "document_multiple_question_regular",
+    "name": "Document Multiple Question Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_multiple_question_regular.svg"
+  },
+  {
+    "id": "document_one_page_multiple_text_filled",
+    "name": "Document One Page Multiple Text Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_one_page_multiple_text_filled.svg"
+  },
+  {
+    "id": "document_one_page_multiple_text_regular",
+    "name": "Document One Page Multiple Text Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_one_page_multiple_text_regular.svg"
+  },
+  {
+    "id": "document_one_page_sparkles_filled",
+    "name": "Document One Page Sparkles Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_one_page_sparkles_filled.svg"
+  },
+  {
+    "id": "document_one_page_sparkles_regular",
+    "name": "Document One Page Sparkles Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_one_page_sparkles_regular.svg"
+  },
+  {
+    "id": "document_people_filled",
+    "name": "Document People Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_people_filled.svg"
+  },
+  {
+    "id": "document_people_regular",
+    "name": "Document People Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_people_regular.svg"
+  },
+  {
+    "id": "document_pq_filled",
+    "name": "Document Pq Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_pq_filled.svg"
+  },
+  {
+    "id": "document_pq_regular",
+    "name": "Document Pq Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_pq_regular.svg"
+  },
+  {
+    "id": "document_rdl_filled",
+    "name": "Document Rdl Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_rdl_filled.svg"
+  },
+  {
+    "id": "document_rdl_regular",
+    "name": "Document Rdl Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_rdl_regular.svg"
+  },
+  {
+    "id": "document_shapes_filled",
+    "name": "Document Shapes Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_shapes_filled.svg"
+  },
+  {
+    "id": "document_shapes_regular",
+    "name": "Document Shapes Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_shapes_regular.svg"
+  },
+  {
+    "id": "document_sql_filled",
+    "name": "Document Sql Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_sql_filled.svg"
+  },
+  {
+    "id": "document_sql_regular",
+    "name": "Document Sql Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_sql_regular.svg"
+  },
+  {
+    "id": "document_ssis_filled",
+    "name": "Document Ssis Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_ssis_filled.svg"
+  },
+  {
+    "id": "document_ssis_play_filled",
+    "name": "Document Ssis Play Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_ssis_play_filled.svg"
+  },
+  {
+    "id": "document_ssis_play_regular",
+    "name": "Document Ssis Play Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_ssis_play_regular.svg"
+  },
+  {
+    "id": "document_ssis_regular",
+    "name": "Document Ssis Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_ssis_regular.svg"
+  },
+  {
+    "id": "document_tmdl_arrow_diagonal_up_right_filled",
+    "name": "Document Tmdl Arrow Diagonal Up Right Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_tmdl_arrow_diagonal_up_right_filled.svg"
+  },
+  {
+    "id": "document_tmdl_arrow_diagonal_up_right_regular",
+    "name": "Document Tmdl Arrow Diagonal Up Right Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_tmdl_arrow_diagonal_up_right_regular.svg"
+  },
+  {
+    "id": "document_tmdl_filled",
+    "name": "Document Tmdl Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_tmdl_filled.svg"
+  },
+  {
+    "id": "document_tmdl_regular",
+    "name": "Document Tmdl Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_tmdl_regular.svg"
+  },
+  {
+    "id": "document_tree_filled",
+    "name": "Document Tree Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_tree_filled.svg"
+  },
+  {
+    "id": "document_tree_regular",
+    "name": "Document Tree Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/document_tree_regular.svg"
+  },
+  {
+    "id": "dual_screen_diff_filled",
+    "name": "Dual Screen Diff Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/dual_screen_diff_filled.svg"
+  },
+  {
+    "id": "dual_screen_diff_regular",
+    "name": "Dual Screen Diff Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/dual_screen_diff_regular.svg"
+  },
+  {
+    "id": "endpoint_filled",
+    "name": "Endpoint Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/endpoint_filled.svg"
+  },
+  {
+    "id": "endpoint_regular",
+    "name": "Endpoint Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/endpoint_regular.svg"
+  },
+  {
+    "id": "environment_item",
+    "name": "Environment Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/environment_item.svg"
+  },
+  {
+    "id": "equal_filled",
+    "name": "Equal Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/equal_filled.svg"
+  },
+  {
+    "id": "equal_off_circle_filled",
+    "name": "Equal Off Circle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/equal_off_circle_filled.svg"
+  },
+  {
+    "id": "equal_off_circle_regular",
+    "name": "Equal Off Circle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/equal_off_circle_regular.svg"
+  },
+  {
+    "id": "equal_regular",
+    "name": "Equal Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/equal_regular.svg"
+  },
+  {
+    "id": "event_house_item",
+    "name": "Event House Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/event_house_item.svg"
+  },
+  {
+    "id": "event_house_non-item",
+    "name": "Event House Non-Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/event_house_non-item.svg"
+  },
+  {
+    "id": "eventstream_item",
+    "name": "Eventstream Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/eventstream_item.svg"
+  },
+  {
+    "id": "experiments_item",
+    "name": "Experiments Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/experiments_item.svg"
+  },
+  {
+    "id": "exploration_item",
+    "name": "Exploration Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/exploration_item.svg"
+  },
+  {
+    "id": "external_dataflow_item",
+    "name": "External Dataflow Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/external_dataflow_item.svg"
+  },
+  {
+    "id": "external_datamart_item",
+    "name": "External Datamart Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/external_datamart_item.svg"
+  },
+  {
+    "id": "external_semantic_model_item",
+    "name": "External Semantic Model Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/external_semantic_model_item.svg"
+  },
+  {
+    "id": "fabric_color",
+    "name": "Fabric Color",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/fabric_color.svg"
+  },
+  {
+    "id": "fabric_filled",
+    "name": "Fabric Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/fabric_filled.svg"
+  },
+  {
+    "id": "fabric_regular",
+    "name": "Fabric Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/fabric_regular.svg"
+  },
+  {
+    "id": "filter_settings_filled",
+    "name": "Filter Settings Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/filter_settings_filled.svg"
+  },
+  {
+    "id": "filter_settings_regular",
+    "name": "Filter Settings Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/filter_settings_regular.svg"
+  },
+  {
+    "id": "folder_non-item",
+    "name": "Folder Non-Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/folder_non-item.svg"
+  },
+  {
+    "id": "folder_open_data_bar_filled",
+    "name": "Folder Open Data Bar Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/folder_open_data_bar_filled.svg"
+  },
+  {
+    "id": "folder_open_data_bar_regular",
+    "name": "Folder Open Data Bar Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/folder_open_data_bar_regular.svg"
+  },
+  {
+    "id": "folder_share_filled",
+    "name": "Folder Share Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/folder_share_filled.svg"
+  },
+  {
+    "id": "folder_share_regular",
+    "name": "Folder Share Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/folder_share_regular.svg"
+  },
+  {
+    "id": "folder_table_filled",
+    "name": "Folder Table Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/folder_table_filled.svg"
+  },
+  {
+    "id": "folder_table_regular",
+    "name": "Folder Table Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/folder_table_regular.svg"
+  },
+  {
+    "id": "function_set_filled",
+    "name": "Function Set Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/function_set_filled.svg"
+  },
+  {
+    "id": "function_set_item",
+    "name": "Function Set Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/function_set_item.svg"
+  },
+  {
+    "id": "function_set_regular",
+    "name": "Function Set Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/function_set_regular.svg"
+  },
+  {
+    "id": "funnel_add_filled",
+    "name": "Funnel Add Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/funnel_add_filled.svg"
+  },
+  {
+    "id": "funnel_add_regular",
+    "name": "Funnel Add Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/funnel_add_regular.svg"
+  },
+  {
+    "id": "funnel_filled",
+    "name": "Funnel Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/funnel_filled.svg"
+  },
+  {
+    "id": "funnel_regular",
+    "name": "Funnel Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/funnel_regular.svg"
+  },
+  {
+    "id": "gauge_kql_filled",
+    "name": "Gauge Kql Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/gauge_kql_filled.svg"
+  },
+  {
+    "id": "gauge_kql_regular",
+    "name": "Gauge Kql Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/gauge_kql_regular.svg"
+  },
+  {
+    "id": "generic_placeholder_item",
+    "name": "Generic Placeholder Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/generic_placeholder_item.svg"
+  },
+  {
+    "id": "gift_open_warning_filled",
+    "name": "Gift Open Warning Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/gift_open_warning_filled.svg"
+  },
+  {
+    "id": "gift_open_warning_regular",
+    "name": "Gift Open Warning Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/gift_open_warning_regular.svg"
+  },
+  {
+    "id": "globe_settings_filed",
+    "name": "Globe Settings Filed",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/globe_settings_filed.svg"
+  },
+  {
+    "id": "globe_settings_regular",
+    "name": "Globe Settings Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/globe_settings_regular.svg"
+  },
+  {
+    "id": "graph_intelligence_color",
+    "name": "Graph Intelligence Color",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/graph_intelligence_color.svg"
+  },
+  {
+    "id": "graph_intelligence_filled",
+    "name": "Graph Intelligence Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/graph_intelligence_filled.svg"
+  },
+  {
+    "id": "graph_intelligence_regular",
+    "name": "Graph Intelligence Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/graph_intelligence_regular.svg"
+  },
+  {
+    "id": "graph_model_instance_item",
+    "name": "Graph Model Instance Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/graph_model_instance_item.svg"
+  },
+  {
+    "id": "graph_model_instance_queryset_item",
+    "name": "Graph Model Instance Queryset Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/graph_model_instance_queryset_item.svg"
+  },
+  {
+    "id": "group_workspace_non-item",
+    "name": "Group Workspace Non-Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/group_workspace_non-item.svg"
+  },
+  {
+    "id": "healthcare_item",
+    "name": "Healthcare Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/healthcare_item.svg"
+  },
+  {
+    "id": "hexagon_three_rotated_add_filled",
+    "name": "Hexagon Three Rotated Add Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/hexagon_three_rotated_add_filled.svg"
+  },
+  {
+    "id": "hexagon_three_rotated_add_regular",
+    "name": "Hexagon Three Rotated Add Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/hexagon_three_rotated_add_regular.svg"
+  },
+  {
+    "id": "hexagon_three_rotated_filled",
+    "name": "Hexagon Three Rotated Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/hexagon_three_rotated_filled.svg"
+  },
+  {
+    "id": "hexagon_three_rotated_regular",
+    "name": "Hexagon Three Rotated Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/hexagon_three_rotated_regular.svg"
+  },
+  {
+    "id": "hint_grid_filled",
+    "name": "Hint Grid Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/hint_grid_filled.svg"
+  },
+  {
+    "id": "hint_grid_regular",
+    "name": "Hint Grid Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/hint_grid_regular.svg"
+  },
+  {
+    "id": "home_kql_filled",
+    "name": "Home Kql Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/home_kql_filled.svg"
+  },
+  {
+    "id": "home_kql_regular",
+    "name": "Home Kql Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/home_kql_regular.svg"
+  },
+  {
+    "id": "home_more_lightning_filled",
+    "name": "Home More Lightning Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/home_more_lightning_filled.svg"
+  },
+  {
+    "id": "home_more_lightning_regular",
+    "name": "Home More Lightning Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/home_more_lightning_regular.svg"
+  },
+  {
+    "id": "home_tree_line_filled",
+    "name": "Home Tree Line Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/home_tree_line_filled.svg"
+  },
+  {
+    "id": "home_tree_line_regular",
+    "name": "Home Tree Line Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/home_tree_line_regular.svg"
+  },
+  {
+    "id": "home_waves_filled",
+    "name": "Home Waves Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/home_waves_filled.svg"
+  },
+  {
+    "id": "home_waves_regular",
+    "name": "Home Waves Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/home_waves_regular.svg"
+  },
+  {
+    "id": "import_notebook_non-item",
+    "name": "Import Notebook Non-Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/import_notebook_non-item.svg"
+  },
+  {
+    "id": "industry_solutions_color",
+    "name": "Industry Solutions Color",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/industry_solutions_color.svg"
+  },
+  {
+    "id": "info_no_circle_filled",
+    "name": "Info No Circle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/info_no_circle_filled.svg"
+  },
+  {
+    "id": "info_no_circle_regular",
+    "name": "Info No Circle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/info_no_circle_regular.svg"
+  },
+  {
+    "id": "iot_person_filled",
+    "name": "Iot Person Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/iot_person_filled.svg"
+  },
+  {
+    "id": "iot_person_regular",
+    "name": "Iot Person Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/iot_person_regular.svg"
+  },
+  {
+    "id": "kql_database_item",
+    "name": "Kql Database Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/kql_database_item.svg"
+  },
+  {
+    "id": "kql_queryset_item",
+    "name": "Kql Queryset Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/kql_queryset_item.svg"
+  },
+  {
+    "id": "kql_script_item",
+    "name": "Kql Script Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/kql_script_item.svg"
+  },
+  {
+    "id": "lakehouse_item",
+    "name": "Lakehouse Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/lakehouse_item.svg"
+  },
+  {
+    "id": "layer_add_filled",
+    "name": "Layer Add Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/layer_add_filled.svg"
+  },
+  {
+    "id": "layer_add_regular",
+    "name": "Layer Add Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/layer_add_regular.svg"
+  },
+  {
+    "id": "layout_column_three_lock_filled",
+    "name": "Layout Column Three Lock Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/layout_column_three_lock_filled.svg"
+  },
+  {
+    "id": "layout_column_three_lock_regular",
+    "name": "Layout Column Three Lock Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/layout_column_three_lock_regular.svg"
+  },
+  {
+    "id": "layout_row_three_lock_filled",
+    "name": "Layout Row Three Lock Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/layout_row_three_lock_filled.svg"
+  },
+  {
+    "id": "layout_row_three_lock_regular",
+    "name": "Layout Row Three Lock Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/layout_row_three_lock_regular.svg"
+  },
+  {
+    "id": "library_globe_filled",
+    "name": "Library Globe Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/library_globe_filled.svg"
+  },
+  {
+    "id": "library_globe_regular",
+    "name": "Library Globe Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/library_globe_regular.svg"
+  },
+  {
+    "id": "library_people_filled",
+    "name": "Library People Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/library_people_filled.svg"
+  },
+  {
+    "id": "library_people_regular",
+    "name": "Library People Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/library_people_regular.svg"
+  },
+  {
+    "id": "library_person_filled",
+    "name": "Library Person Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/library_person_filled.svg"
+  },
+  {
+    "id": "library_person_regular",
+    "name": "Library Person Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/library_person_regular.svg"
+  },
+  {
+    "id": "links_item",
+    "name": "Links Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/links_item.svg"
+  },
+  {
+    "id": "list_asterisk_filled",
+    "name": "List Asterisk Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/list_asterisk_filled.svg"
+  },
+  {
+    "id": "list_asterisk_regular",
+    "name": "List Asterisk Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/list_asterisk_regular.svg"
+  },
+  {
+    "id": "list_kql_filled",
+    "name": "List Kql Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/list_kql_filled.svg"
+  },
+  {
+    "id": "list_kql_regular",
+    "name": "List Kql Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/list_kql_regular.svg"
+  },
+  {
+    "id": "list_shield_filled",
+    "name": "List Shield Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/list_shield_filled.svg"
+  },
+  {
+    "id": "list_shield_regular",
+    "name": "List Shield Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/list_shield_regular.svg"
+  },
+  {
+    "id": "list_sql_filled",
+    "name": "List Sql Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/list_sql_filled.svg"
+  },
+  {
+    "id": "list_sql_regular",
+    "name": "List Sql Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/list_sql_regular.svg"
+  },
+  {
+    "id": "lock_circle_filled",
+    "name": "Lock Circle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/lock_circle_filled.svg"
+  },
+  {
+    "id": "lock_circle_regular",
+    "name": "Lock Circle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/lock_circle_regular.svg"
+  },
+  {
+    "id": "lock_closed_database_filled",
+    "name": "Lock Closed Database Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/lock_closed_database_filled.svg"
+  },
+  {
+    "id": "lock_closed_database_regular",
+    "name": "Lock Closed Database Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/lock_closed_database_regular.svg"
+  },
+  {
+    "id": "lock_closed_sql_filled",
+    "name": "Lock Closed Sql Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/lock_closed_sql_filled.svg"
+  },
+  {
+    "id": "lock_closed_sql_regular",
+    "name": "Lock Closed Sql Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/lock_closed_sql_regular.svg"
+  },
+  {
+    "id": "match_category_filled",
+    "name": "Match Category Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/match_category_filled.svg"
+  },
+  {
+    "id": "match_category_regular",
+    "name": "Match Category Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/match_category_regular.svg"
+  },
+  {
+    "id": "metric_sets_item",
+    "name": "Metric Sets Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/metric_sets_item.svg"
+  },
+  {
+    "id": "mirrored_generic_database_item",
+    "name": "Mirrored Generic Database Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/mirrored_generic_database_item.svg"
+  },
+  {
+    "id": "mobile_report_item",
+    "name": "Mobile Report Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/mobile_report_item.svg"
+  },
+  {
+    "id": "model_item",
+    "name": "Model Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/model_item.svg"
+  },
+  {
+    "id": "my_location_arrow_down_filled",
+    "name": "My Location Arrow Down Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/my_location_arrow_down_filled.svg"
+  },
+  {
+    "id": "my_location_arrow_down_regular",
+    "name": "My Location Arrow Down Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/my_location_arrow_down_regular.svg"
+  },
+  {
+    "id": "my_location_database_filled",
+    "name": "My Location Database Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/my_location_database_filled.svg"
+  },
+  {
+    "id": "my_location_database_regular",
+    "name": "My Location Database Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/my_location_database_regular.svg"
+  },
+  {
+    "id": "my_location_radar_filled",
+    "name": "My Location Radar Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/my_location_radar_filled.svg"
+  },
+  {
+    "id": "my_location_radar_regular",
+    "name": "My Location Radar Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/my_location_radar_regular.svg"
+  },
+  {
+    "id": "my_location_ribbon_filled",
+    "name": "My Location Ribbon Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/my_location_ribbon_filled.svg"
+  },
+  {
+    "id": "my_location_ribbon_regular",
+    "name": "My Location Ribbon Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/my_location_ribbon_regular.svg"
+  },
+  {
+    "id": "my_workspace_non-item",
+    "name": "My Workspace Non-Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/my_workspace_non-item.svg"
+  },
+  {
+    "id": "no_access_semantic_model_item",
+    "name": "No Access Semantic Model Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/no_access_semantic_model_item.svg"
+  },
+  {
+    "id": "nodes_connected_filled",
+    "name": "Nodes Connected Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/nodes_connected_filled.svg"
+  },
+  {
+    "id": "nodes_connected_regular",
+    "name": "Nodes Connected Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/nodes_connected_regular.svg"
+  },
+  {
+    "id": "nodes_triangle_connected_top_filled",
+    "name": "Nodes Triangle Connected Top Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/nodes_triangle_connected_top_filled.svg"
+  },
+  {
+    "id": "nodes_triangle_connected_top_regular",
+    "name": "Nodes Triangle Connected Top Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/nodes_triangle_connected_top_regular.svg"
+  },
+  {
+    "id": "notebook_arrow_diagonal_up_right_filled",
+    "name": "Notebook Arrow Diagonal Up Right Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/notebook_arrow_diagonal_up_right_filled.svg"
+  },
+  {
+    "id": "notebook_arrow_diagonal_up_right_regular",
+    "name": "Notebook Arrow Diagonal Up Right Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/notebook_arrow_diagonal_up_right_regular.svg"
+  },
+  {
+    "id": "notebook_code_filled",
+    "name": "Notebook Code Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/notebook_code_filled.svg"
+  },
+  {
+    "id": "notebook_code_regular",
+    "name": "Notebook Code Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/notebook_code_regular.svg"
+  },
+  {
+    "id": "notebook_globe_filled",
+    "name": "Notebook Globe Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/notebook_globe_filled.svg"
+  },
+  {
+    "id": "notebook_globe_regular",
+    "name": "Notebook Globe Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/notebook_globe_regular.svg"
+  },
+  {
+    "id": "notebook_item",
+    "name": "Notebook Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/notebook_item.svg"
+  },
+  {
+    "id": "number_01_function_filled",
+    "name": "Number 01 Function Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/number_01_function_filled.svg"
+  },
+  {
+    "id": "number_01_function_regular",
+    "name": "Number 01 Function Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/number_01_function_regular.svg"
+  },
+  {
+    "id": "odata_filled",
+    "name": "Odata Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/odata_filled.svg"
+  },
+  {
+    "id": "odata_regular",
+    "name": "Odata Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/odata_regular.svg"
+  },
+  {
+    "id": "one_lake_color",
+    "name": "One Lake Color",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/one_lake_color.svg"
+  },
+  {
+    "id": "one_lake_filled",
+    "name": "One Lake Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/one_lake_filled.svg"
+  },
+  {
+    "id": "one_lake_regular",
+    "name": "One Lake Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/one_lake_regular.svg"
+  },
+  {
+    "id": "operations_agent_item",
+    "name": "Operations Agent Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/operations_agent_item.svg"
+  },
+  {
+    "id": "orientation_vertical_filled",
+    "name": "Orientation Vertical Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/orientation_vertical_filled.svg"
+  },
+  {
+    "id": "orientation_vertical_regular",
+    "name": "Orientation Vertical Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/orientation_vertical_regular.svg"
+  },
+  {
+    "id": "paginated_report_item",
+    "name": "Paginated Report Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/paginated_report_item.svg"
+  },
+  {
+    "id": "partition_hint_filled",
+    "name": "Partition Hint Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/partition_hint_filled.svg"
+  },
+  {
+    "id": "partition_hint_regular",
+    "name": "Partition Hint Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/partition_hint_regular.svg"
+  },
+  {
+    "id": "person_warning_filled",
+    "name": "Person Warning Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/person_warning_filled.svg"
+  },
+  {
+    "id": "person_warning_regular",
+    "name": "Person Warning Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/person_warning_regular.svg"
+  },
+  {
+    "id": "person_wrench_filled",
+    "name": "Person Wrench Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/person_wrench_filled.svg"
+  },
+  {
+    "id": "person_wrench_regular",
+    "name": "Person Wrench Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/person_wrench_regular.svg"
+  },
+  {
+    "id": "phone_data_bar_vertical_filled",
+    "name": "Phone Data Bar Vertical Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/phone_data_bar_vertical_filled.svg"
+  },
+  {
+    "id": "phone_data_bar_vertical_regular",
+    "name": "Phone Data Bar Vertical Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/phone_data_bar_vertical_regular.svg"
+  },
+  {
+    "id": "pie_double_filled",
+    "name": "Pie Double Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/pie_double_filled.svg"
+  },
+  {
+    "id": "pie_double_regular",
+    "name": "Pie Double Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/pie_double_regular.svg"
+  },
+  {
+    "id": "pipeline_item",
+    "name": "Pipeline Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/pipeline_item.svg"
+  },
+  {
+    "id": "pipeline_note_filled",
+    "name": "Pipeline Note Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/pipeline_note_filled.svg"
+  },
+  {
+    "id": "pipeline_note_regular",
+    "name": "Pipeline Note Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/pipeline_note_regular.svg"
+  },
+  {
+    "id": "planning_item",
+    "name": "Planning Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/planning_item.svg"
+  },
+  {
+    "id": "power_bi_color",
+    "name": "Power Bi Color",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/power_bi_color.svg"
+  },
+  {
+    "id": "power_bi_filled",
+    "name": "Power Bi Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/power_bi_filled.svg"
+  },
+  {
+    "id": "power_bi_regular",
+    "name": "Power Bi Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/power_bi_regular.svg"
+  },
+  {
+    "id": "progress_bar_filled",
+    "name": "Progress Bar Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/progress_bar_filled.svg"
+  },
+  {
+    "id": "progress_bar_regular",
+    "name": "Progress Bar Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/progress_bar_regular.svg"
+  },
+  {
+    "id": "progress_circle_filled",
+    "name": "Progress Circle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/progress_circle_filled.svg"
+  },
+  {
+    "id": "progress_circle_regular",
+    "name": "Progress Circle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/progress_circle_regular.svg"
+  },
+  {
+    "id": "pulse_square_person_filled",
+    "name": "Pulse Square Person Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/pulse_square_person_filled.svg"
+  },
+  {
+    "id": "pulse_square_person_regular",
+    "name": "Pulse Square Person Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/pulse_square_person_regular.svg"
+  },
+  {
+    "id": "purview_color",
+    "name": "Purview Color",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/purview_color.svg"
+  },
+  {
+    "id": "purview_filled",
+    "name": "Purview Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/purview_filled.svg"
+  },
+  {
+    "id": "purview_regular",
+    "name": "Purview Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/purview_regular.svg"
+  },
+  {
+    "id": "rdl_report_item",
+    "name": "Rdl Report Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/rdl_report_item.svg"
+  },
+  {
+    "id": "real_time_dashboard_item",
+    "name": "Real Time Dashboard Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/real_time_dashboard_item.svg"
+  },
+  {
+    "id": "real_time_intelligence_color",
+    "name": "Real Time Intelligence Color",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/real_time_intelligence_color.svg"
+  },
+  {
+    "id": "real_time_intelligence_filled",
+    "name": "Real Time Intelligence Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/real_time_intelligence_filled.svg"
+  },
+  {
+    "id": "real_time_intelligence_regular",
+    "name": "Real Time Intelligence Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/real_time_intelligence_regular.svg"
+  },
+  {
+    "id": "receipt_kql_filled",
+    "name": "Receipt Kql Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/receipt_kql_filled.svg"
+  },
+  {
+    "id": "receipt_kql_new_filled",
+    "name": "Receipt Kql New Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/receipt_kql_new_filled.svg"
+  },
+  {
+    "id": "receipt_kql_new_regular",
+    "name": "Receipt Kql New Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/receipt_kql_new_regular.svg"
+  },
+  {
+    "id": "receipt_kql_regular",
+    "name": "Receipt Kql Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/receipt_kql_regular.svg"
+  },
+  {
+    "id": "receipt_sparkle_filled",
+    "name": "Receipt Sparkle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/receipt_sparkle_filled.svg"
+  },
+  {
+    "id": "receipt_sparkle_new_filled",
+    "name": "Receipt Sparkle New Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/receipt_sparkle_new_filled.svg"
+  },
+  {
+    "id": "receipt_sparkle_new_regular",
+    "name": "Receipt Sparkle New Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/receipt_sparkle_new_regular.svg"
+  },
+  {
+    "id": "receipt_sparkle_regular",
+    "name": "Receipt Sparkle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/receipt_sparkle_regular.svg"
+  },
+  {
+    "id": "rectangle_arrow_down_exit_filled",
+    "name": "Rectangle Arrow Down Exit Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/rectangle_arrow_down_exit_filled.svg"
+  },
+  {
+    "id": "rectangle_arrow_down_exit_regular",
+    "name": "Rectangle Arrow Down Exit Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/rectangle_arrow_down_exit_regular.svg"
+  },
+  {
+    "id": "rectangle_arrow_up_exit_filled",
+    "name": "Rectangle Arrow Up Exit Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/rectangle_arrow_up_exit_filled.svg"
+  },
+  {
+    "id": "rectangle_arrow_up_exit_regular",
+    "name": "Rectangle Arrow Up Exit Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/rectangle_arrow_up_exit_regular.svg"
+  },
+  {
+    "id": "rectangle_arrow_up_filled",
+    "name": "Rectangle Arrow Up Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/rectangle_arrow_up_filled.svg"
+  },
+  {
+    "id": "rectangle_arrow_up_regular",
+    "name": "Rectangle Arrow Up Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/rectangle_arrow_up_regular.svg"
+  },
+  {
+    "id": "rectangle_list_asterisk_filled",
+    "name": "Rectangle List Asterisk Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/rectangle_list_asterisk_filled.svg"
+  },
+  {
+    "id": "rectangle_list_asterisk_regular",
+    "name": "Rectangle List Asterisk Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/rectangle_list_asterisk_regular.svg"
+  },
+  {
+    "id": "rectangle_multiple_arrow_curved_left_filled",
+    "name": "Rectangle Multiple Arrow Curved Left Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/rectangle_multiple_arrow_curved_left_filled.svg"
+  },
+  {
+    "id": "rectangle_multiple_arrow_curved_left_regular",
+    "name": "Rectangle Multiple Arrow Curved Left Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/rectangle_multiple_arrow_curved_left_regular.svg"
+  },
+  {
+    "id": "rectangle_multiple_arrow_curved_right_filled",
+    "name": "Rectangle Multiple Arrow Curved Right Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/rectangle_multiple_arrow_curved_right_filled.svg"
+  },
+  {
+    "id": "rectangle_multiple_arrow_curved_right_regular",
+    "name": "Rectangle Multiple Arrow Curved Right Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/rectangle_multiple_arrow_curved_right_regular.svg"
+  },
+  {
+    "id": "rectangle_multiple_diff_filled",
+    "name": "Rectangle Multiple Diff Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/rectangle_multiple_diff_filled.svg"
+  },
+  {
+    "id": "rectangle_multiple_diff_regular",
+    "name": "Rectangle Multiple Diff Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/rectangle_multiple_diff_regular.svg"
+  },
+  {
+    "id": "report_item",
+    "name": "Report Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/report_item.svg"
+  },
+  {
+    "id": "restricted_report_item",
+    "name": "Restricted Report Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/restricted_report_item.svg"
+  },
+  {
+    "id": "restricted_scorecard_item",
+    "name": "Restricted Scorecard Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/restricted_scorecard_item.svg"
+  },
+  {
+    "id": "retail_item",
+    "name": "Retail Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/retail_item.svg"
+  },
+  {
+    "id": "runtime_lineage_item",
+    "name": "Runtime Lineage Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/runtime_lineage_item.svg"
+  },
+  {
+    "id": "sample_non-item",
+    "name": "Sample Non-Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/sample_non-item.svg"
+  },
+  {
+    "id": "sample_workload_color",
+    "name": "Sample Workload Color",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/sample_workload_color.svg"
+  },
+  {
+    "id": "sample_workload_filled",
+    "name": "Sample Workload Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/sample_workload_filled.svg"
+  },
+  {
+    "id": "sample_workload_regular",
+    "name": "Sample Workload Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/sample_workload_regular.svg"
+  },
+  {
+    "id": "save_phone_filled",
+    "name": "Save Phone Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/save_phone_filled.svg"
+  },
+  {
+    "id": "save_phone_regular",
+    "name": "Save Phone Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/save_phone_regular.svg"
+  },
+  {
+    "id": "scan_categorize_filled",
+    "name": "Scan Categorize Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/scan_categorize_filled.svg"
+  },
+  {
+    "id": "scan_categorize_regular",
+    "name": "Scan Categorize Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/scan_categorize_regular.svg"
+  },
+  {
+    "id": "schema_filled",
+    "name": "Schema Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/schema_filled.svg"
+  },
+  {
+    "id": "schema_model_item",
+    "name": "Schema Model Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/schema_model_item.svg"
+  },
+  {
+    "id": "schema_regular",
+    "name": "Schema Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/schema_regular.svg"
+  },
+  {
+    "id": "scorecard_item",
+    "name": "Scorecard Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/scorecard_item.svg"
+  },
+  {
+    "id": "script_kql_add_filled",
+    "name": "Script Kql Add Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/script_kql_add_filled.svg"
+  },
+  {
+    "id": "script_kql_add_regular",
+    "name": "Script Kql Add Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/script_kql_add_regular.svg"
+  },
+  {
+    "id": "script_kql_filled",
+    "name": "Script Kql Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/script_kql_filled.svg"
+  },
+  {
+    "id": "script_kql_regular",
+    "name": "Script Kql Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/script_kql_regular.svg"
+  },
+  {
+    "id": "script_sparkle_add_filled",
+    "name": "Script Sparkle Add Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/script_sparkle_add_filled.svg"
+  },
+  {
+    "id": "script_sparkle_add_regular",
+    "name": "Script Sparkle Add Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/script_sparkle_add_regular.svg"
+  },
+  {
+    "id": "script_sparkle_filled",
+    "name": "Script Sparkle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/script_sparkle_filled.svg"
+  },
+  {
+    "id": "script_sparkle_regular",
+    "name": "Script Sparkle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/script_sparkle_regular.svg"
+  },
+  {
+    "id": "semantic_model_item",
+    "name": "Semantic Model Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/semantic_model_item.svg"
+  },
+  {
+    "id": "send_circle_filled",
+    "name": "Send Circle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/send_circle_filled.svg"
+  },
+  {
+    "id": "send_circle_regular",
+    "name": "Send Circle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/send_circle_regular.svg"
+  },
+  {
+    "id": "settings_person_filled",
+    "name": "Settings Person Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/settings_person_filled.svg"
+  },
+  {
+    "id": "settings_person_regular",
+    "name": "Settings Person Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/settings_person_regular.svg"
+  },
+  {
+    "id": "shape_ellipse_filled",
+    "name": "Shape Ellipse Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/shape_ellipse_filled.svg"
+  },
+  {
+    "id": "shape_ellipse_regular",
+    "name": "Shape Ellipse Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/shape_ellipse_regular.svg"
+  },
+  {
+    "id": "shapes_filled",
+    "name": "Shapes Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/shapes_filled.svg"
+  },
+  {
+    "id": "shapes_lightning_filled",
+    "name": "Shapes Lightning Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/shapes_lightning_filled.svg"
+  },
+  {
+    "id": "shapes_lightning_regular",
+    "name": "Shapes Lightning Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/shapes_lightning_regular.svg"
+  },
+  {
+    "id": "shapes_regular",
+    "name": "Shapes Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/shapes_regular.svg"
+  },
+  {
+    "id": "shapes_settings_filled",
+    "name": "Shapes Settings Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/shapes_settings_filled.svg"
+  },
+  {
+    "id": "shapes_settings_regular",
+    "name": "Shapes Settings Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/shapes_settings_regular.svg"
+  },
+  {
+    "id": "shapes_three_filled",
+    "name": "Shapes Three Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/shapes_three_filled.svg"
+  },
+  {
+    "id": "shapes_three_regular",
+    "name": "Shapes Three Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/shapes_three_regular.svg"
+  },
+  {
+    "id": "shapes_toolbox_filled",
+    "name": "Shapes Toolbox Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/shapes_toolbox_filled.svg"
+  },
+  {
+    "id": "shapes_toolbox_regular",
+    "name": "Shapes Toolbox Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/shapes_toolbox_regular.svg"
+  },
+  {
+    "id": "shared_semantic_model_item",
+    "name": "Shared Semantic Model Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/shared_semantic_model_item.svg"
+  },
+  {
+    "id": "shopping_bag_data_bar_vertical_filled",
+    "name": "Shopping Bag Data Bar Vertical Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/shopping_bag_data_bar_vertical_filled.svg"
+  },
+  {
+    "id": "shopping_bag_data_bar_vertical_regular",
+    "name": "Shopping Bag Data Bar Vertical Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/shopping_bag_data_bar_vertical_regular.svg"
+  },
+  {
+    "id": "signal_square_filled",
+    "name": "Signal Square Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/signal_square_filled.svg"
+  },
+  {
+    "id": "signal_square_regular",
+    "name": "Signal Square Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/signal_square_regular.svg"
+  },
+  {
+    "id": "signal_tower_filled",
+    "name": "Signal Tower Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/signal_tower_filled.svg"
+  },
+  {
+    "id": "signal_tower_regular",
+    "name": "Signal Tower Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/signal_tower_regular.svg"
+  },
+  {
+    "id": "slide_text_accept_dismiss_filled",
+    "name": "Slide Text Accept Dismiss Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/slide_text_accept_dismiss_filled.svg"
+  },
+  {
+    "id": "slide_text_accept_dismiss_regular",
+    "name": "Slide Text Accept Dismiss Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/slide_text_accept_dismiss_regular.svg"
+  },
+  {
+    "id": "slide_text_ribbon_filled",
+    "name": "Slide Text Ribbon Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/slide_text_ribbon_filled.svg"
+  },
+  {
+    "id": "slide_text_ribbon_regular",
+    "name": "Slide Text Ribbon Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/slide_text_ribbon_regular.svg"
+  },
+  {
+    "id": "slide_text_window_filled",
+    "name": "Slide Text Window Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/slide_text_window_filled.svg"
+  },
+  {
+    "id": "slide_text_window_regular",
+    "name": "Slide Text Window Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/slide_text_window_regular.svg"
+  },
+  {
+    "id": "spark_job_direction_item",
+    "name": "Spark Job Direction Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/spark_job_direction_item.svg"
+  },
+  {
+    "id": "sql_database_item",
+    "name": "Sql Database Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/sql_database_item.svg"
+  },
+  {
+    "id": "square_arrow_up_down_filled",
+    "name": "Square Arrow Up Down Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_arrow_up_down_filled.svg"
+  },
+  {
+    "id": "square_arrow_up_down_regular",
+    "name": "Square Arrow Up Down Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_arrow_up_down_regular.svg"
+  },
+  {
+    "id": "square_database_arrow_up_down_filled",
+    "name": "Square Database Arrow Up Down Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_database_arrow_up_down_filled.svg"
+  },
+  {
+    "id": "square_database_arrow_up_down_regular",
+    "name": "Square Database Arrow Up Down Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_database_arrow_up_down_regular.svg"
+  },
+  {
+    "id": "square_database_filled",
+    "name": "Square Database Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_database_filled.svg"
+  },
+  {
+    "id": "square_database_regular",
+    "name": "Square Database Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_database_regular.svg"
+  },
+  {
+    "id": "square_globe_arrow_up_down_filled",
+    "name": "Square Globe Arrow Up Down Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_globe_arrow_up_down_filled.svg"
+  },
+  {
+    "id": "square_globe_arrow_up_down_regular",
+    "name": "Square Globe Arrow Up Down Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_globe_arrow_up_down_regular.svg"
+  },
+  {
+    "id": "square_multiple_arrow_up_filled",
+    "name": "Square Multiple Arrow Up Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_arrow_up_filled.svg"
+  },
+  {
+    "id": "square_multiple_arrow_up_regular",
+    "name": "Square Multiple Arrow Up Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_arrow_up_regular.svg"
+  },
+  {
+    "id": "square_multiple_data_bar_vertical_filled",
+    "name": "Square Multiple Data Bar Vertical Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_data_bar_vertical_filled.svg"
+  },
+  {
+    "id": "square_multiple_data_bar_vertical_regular",
+    "name": "Square Multiple Data Bar Vertical Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_data_bar_vertical_regular.svg"
+  },
+  {
+    "id": "square_multiple_diagram_filled",
+    "name": "Square Multiple Diagram Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_diagram_filled.svg"
+  },
+  {
+    "id": "square_multiple_diagram_new_filled",
+    "name": "Square Multiple Diagram New Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_diagram_new_filled.svg"
+  },
+  {
+    "id": "square_multiple_diagram_new_regular",
+    "name": "Square Multiple Diagram New Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_diagram_new_regular.svg"
+  },
+  {
+    "id": "square_multiple_diagram_regular",
+    "name": "Square Multiple Diagram Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_diagram_regular.svg"
+  },
+  {
+    "id": "square_multiple_filled",
+    "name": "Square Multiple Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_filled.svg"
+  },
+  {
+    "id": "square_multiple_overlap_add_filled",
+    "name": "Square Multiple Overlap Add Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_overlap_add_filled.svg"
+  },
+  {
+    "id": "square_multiple_overlap_add_regular",
+    "name": "Square Multiple Overlap Add Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_overlap_add_regular.svg"
+  },
+  {
+    "id": "square_multiple_overlap_eye_filled",
+    "name": "Square Multiple Overlap Eye Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_overlap_eye_filled.svg"
+  },
+  {
+    "id": "square_multiple_overlap_eye_regular",
+    "name": "Square Multiple Overlap Eye Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_overlap_eye_regular.svg"
+  },
+  {
+    "id": "square_multiple_overlap_filled",
+    "name": "Square Multiple Overlap Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_overlap_filled.svg"
+  },
+  {
+    "id": "square_multiple_overlap_kql_filled",
+    "name": "Square Multiple Overlap Kql Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_overlap_kql_filled.svg"
+  },
+  {
+    "id": "square_multiple_overlap_kql_regular",
+    "name": "Square Multiple Overlap Kql Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_overlap_kql_regular.svg"
+  },
+  {
+    "id": "square_multiple_overlap_line_filled",
+    "name": "Square Multiple Overlap Line Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_overlap_line_filled.svg"
+  },
+  {
+    "id": "square_multiple_overlap_line_regular",
+    "name": "Square Multiple Overlap Line Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_overlap_line_regular.svg"
+  },
+  {
+    "id": "square_multiple_overlap_regular",
+    "name": "Square Multiple Overlap Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_overlap_regular.svg"
+  },
+  {
+    "id": "square_multiple_regular",
+    "name": "Square Multiple Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_multiple_regular.svg"
+  },
+  {
+    "id": "square_text_lines_filled",
+    "name": "Square Text Lines Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_text_lines_filled.svg"
+  },
+  {
+    "id": "square_text_lines_regular",
+    "name": "Square Text Lines Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_text_lines_regular.svg"
+  },
+  {
+    "id": "square_waves_filled",
+    "name": "Square Waves Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_waves_filled.svg"
+  },
+  {
+    "id": "square_waves_regular",
+    "name": "Square Waves Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/square_waves_regular.svg"
+  },
+  {
+    "id": "stack_key_filled",
+    "name": "Stack Key Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/stack_key_filled.svg"
+  },
+  {
+    "id": "stack_key_regular",
+    "name": "Stack Key Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/stack_key_regular.svg"
+  },
+  {
+    "id": "stream_bracket_filled",
+    "name": "Stream Bracket Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/stream_bracket_filled.svg"
+  },
+  {
+    "id": "stream_bracket_regular",
+    "name": "Stream Bracket Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/stream_bracket_regular.svg"
+  },
+  {
+    "id": "stream_search_filled",
+    "name": "Stream Search Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/stream_search_filled.svg"
+  },
+  {
+    "id": "stream_search_regular",
+    "name": "Stream Search Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/stream_search_regular.svg"
+  },
+  {
+    "id": "stream_settings_bracket_filled",
+    "name": "Stream Settings Bracket Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/stream_settings_bracket_filled.svg"
+  },
+  {
+    "id": "stream_settings_bracket_regular",
+    "name": "Stream Settings Bracket Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/stream_settings_bracket_regular.svg"
+  },
+  {
+    "id": "stream_settings_filled",
+    "name": "Stream Settings Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/stream_settings_filled.svg"
+  },
+  {
+    "id": "stream_settings_regular",
+    "name": "Stream Settings Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/stream_settings_regular.svg"
+  },
+  {
+    "id": "streaming_dataflow_item",
+    "name": "Streaming Dataflow Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/streaming_dataflow_item.svg"
+  },
+  {
+    "id": "streaming_semantic_model_item",
+    "name": "Streaming Semantic Model Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/streaming_semantic_model_item.svg"
+  },
+  {
+    "id": "sustainability_item",
+    "name": "Sustainability Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/sustainability_item.svg"
+  },
+  {
+    "id": "table_arrow_diagonal_up_right_filled",
+    "name": "Table Arrow Diagonal Up Right Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_arrow_diagonal_up_right_filled.svg"
+  },
+  {
+    "id": "table_arrow_diagonal_up_right_regular",
+    "name": "Table Arrow Diagonal Up Right Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_arrow_diagonal_up_right_regular.svg"
+  },
+  {
+    "id": "table_border_left_filled",
+    "name": "Table Border Left Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_border_left_filled.svg"
+  },
+  {
+    "id": "table_border_left_regular",
+    "name": "Table Border Left Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_border_left_regular.svg"
+  },
+  {
+    "id": "table_broom_filled",
+    "name": "Table Broom Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_broom_filled.svg"
+  },
+  {
+    "id": "table_broom_regular",
+    "name": "Table Broom Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_broom_regular.svg"
+  },
+  {
+    "id": "table_column_brackets_filled",
+    "name": "Table Column Brackets Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_column_brackets_filled.svg"
+  },
+  {
+    "id": "table_column_brackets_regular",
+    "name": "Table Column Brackets Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_column_brackets_regular.svg"
+  },
+  {
+    "id": "table_column_function_filled",
+    "name": "Table Column Function Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_column_function_filled.svg"
+  },
+  {
+    "id": "table_column_function_regular",
+    "name": "Table Column Function Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_column_function_regular.svg"
+  },
+  {
+    "id": "table_column_question_filled",
+    "name": "Table Column Question Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_column_question_filled.svg"
+  },
+  {
+    "id": "table_column_question_regular",
+    "name": "Table Column Question Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_column_question_regular.svg"
+  },
+  {
+    "id": "table_column_sigma_filled",
+    "name": "Table Column Sigma Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_column_sigma_filled.svg"
+  },
+  {
+    "id": "table_column_sigma_regular",
+    "name": "Table Column Sigma Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_column_sigma_regular.svg"
+  },
+  {
+    "id": "table_database_filled",
+    "name": "Table Database Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_database_filled.svg"
+  },
+  {
+    "id": "table_database_regular",
+    "name": "Table Database Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_database_regular.svg"
+  },
+  {
+    "id": "table_external_filled",
+    "name": "Table External Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_external_filled.svg"
+  },
+  {
+    "id": "table_external_regular",
+    "name": "Table External Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_external_regular.svg"
+  },
+  {
+    "id": "table_function_filled",
+    "name": "Table Function Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_function_filled.svg"
+  },
+  {
+    "id": "table_function_regular",
+    "name": "Table Function Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_function_regular.svg"
+  },
+  {
+    "id": "table_header_filled",
+    "name": "Table Header Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_header_filled.svg"
+  },
+  {
+    "id": "table_header_regular",
+    "name": "Table Header Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_header_regular.svg"
+  },
+  {
+    "id": "table_key_filled",
+    "name": "Table Key Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_key_filled.svg"
+  },
+  {
+    "id": "table_key_regular",
+    "name": "Table Key Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_key_regular.svg"
+  },
+  {
+    "id": "table_kql_filled",
+    "name": "Table Kql Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_kql_filled.svg"
+  },
+  {
+    "id": "table_kql_regular",
+    "name": "Table Kql Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_kql_regular.svg"
+  },
+  {
+    "id": "table_lightning_link_filled",
+    "name": "Table Lightning Link Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_lightning_link_filled.svg"
+  },
+  {
+    "id": "table_lightning_link_regular",
+    "name": "Table Lightning Link Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_lightning_link_regular.svg"
+  },
+  {
+    "id": "table_link_filled",
+    "name": "Table Link Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_link_filled.svg"
+  },
+  {
+    "id": "table_link_regular",
+    "name": "Table Link Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_link_regular.svg"
+  },
+  {
+    "id": "table_link_triangle_filled",
+    "name": "Table Link Triangle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_link_triangle_filled.svg"
+  },
+  {
+    "id": "table_link_triangle_regular",
+    "name": "Table Link Triangle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_link_triangle_regular.svg"
+  },
+  {
+    "id": "table_multiple_arrow_curved_right_filled",
+    "name": "Table Multiple Arrow Curved Right Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_multiple_arrow_curved_right_filled.svg"
+  },
+  {
+    "id": "table_multiple_arrow_curved_right_new_filled",
+    "name": "Table Multiple Arrow Curved Right New Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_multiple_arrow_curved_right_new_filled.svg"
+  },
+  {
+    "id": "table_multiple_arrow_curved_right_new_regular",
+    "name": "Table Multiple Arrow Curved Right New Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_multiple_arrow_curved_right_new_regular.svg"
+  },
+  {
+    "id": "table_multiple_arrow_curved_right_regular",
+    "name": "Table Multiple Arrow Curved Right Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_multiple_arrow_curved_right_regular.svg"
+  },
+  {
+    "id": "table_text_cdc_filled",
+    "name": "Table Text Cdc Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_text_cdc_filled.svg"
+  },
+  {
+    "id": "table_text_cdc_regular",
+    "name": "Table Text Cdc Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_text_cdc_regular.svg"
+  },
+  {
+    "id": "table_triangle_filled",
+    "name": "Table Triangle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_triangle_filled.svg"
+  },
+  {
+    "id": "table_triangle_regular",
+    "name": "Table Triangle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_triangle_regular.svg"
+  },
+  {
+    "id": "table_wand_filled",
+    "name": "Table Wand Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_wand_filled.svg"
+  },
+  {
+    "id": "table_wand_regular",
+    "name": "Table Wand Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/table_wand_regular.svg"
+  },
+  {
+    "id": "text_abc_filled",
+    "name": "Text Abc Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_abc_filled.svg"
+  },
+  {
+    "id": "text_abc_regular",
+    "name": "Text Abc Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_abc_regular.svg"
+  },
+  {
+    "id": "text_any_filled",
+    "name": "Text Any Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_any_filled.svg"
+  },
+  {
+    "id": "text_any_regular",
+    "name": "Text Any Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_any_regular.svg"
+  },
+  {
+    "id": "text_bullet_list_square_pulse_filled",
+    "name": "Text Bullet List Square Pulse Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_bullet_list_square_pulse_filled.svg"
+  },
+  {
+    "id": "text_bullet_list_square_pulse_regular",
+    "name": "Text Bullet List Square Pulse Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_bullet_list_square_pulse_regular.svg"
+  },
+  {
+    "id": "text_byte_filled",
+    "name": "Text Byte Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_byte_filled.svg"
+  },
+  {
+    "id": "text_byte_regular",
+    "name": "Text Byte Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_byte_regular.svg"
+  },
+  {
+    "id": "text_lambda_filled",
+    "name": "Text Lambda Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_lambda_filled.svg"
+  },
+  {
+    "id": "text_lambda_regular",
+    "name": "Text Lambda Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_lambda_regular.svg"
+  },
+  {
+    "id": "text_number_01_filled",
+    "name": "Text Number 01 Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_number_01_filled.svg"
+  },
+  {
+    "id": "text_number_01_regular",
+    "name": "Text Number 01 Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_number_01_regular.svg"
+  },
+  {
+    "id": "text_number_123_filled",
+    "name": "Text Number 123 Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_number_123_filled.svg"
+  },
+  {
+    "id": "text_number_123_regular",
+    "name": "Text Number 123 Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_number_123_regular.svg"
+  },
+  {
+    "id": "text_number_12l_filled",
+    "name": "Text Number 12l Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_number_12l_filled.svg"
+  },
+  {
+    "id": "text_number_12l_regular",
+    "name": "Text Number 12l Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_number_12l_regular.svg"
+  },
+  {
+    "id": "text_number_12s_filled",
+    "name": "Text Number 12s Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_number_12s_filled.svg"
+  },
+  {
+    "id": "text_number_12s_regular",
+    "name": "Text Number 12s Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_number_12s_regular.svg"
+  },
+  {
+    "id": "text_number_1_2_filled",
+    "name": "Text Number 1 2 Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_number_1_2_filled.svg"
+  },
+  {
+    "id": "text_number_1_2_regular",
+    "name": "Text Number 1 2 Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_number_1_2_regular.svg"
+  },
+  {
+    "id": "text_number_1_2f_filled",
+    "name": "Text Number 1 2f Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_number_1_2f_filled.svg"
+  },
+  {
+    "id": "text_number_1_2f_regular",
+    "name": "Text Number 1 2f Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_number_1_2f_regular.svg"
+  },
+  {
+    "id": "text_number_field_filled",
+    "name": "Text Number Field Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_number_field_filled.svg"
+  },
+  {
+    "id": "text_number_field_regular",
+    "name": "Text Number Field Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_number_field_regular.svg"
+  },
+  {
+    "id": "text_number_sequence_filled",
+    "name": "Text Number Sequence Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_number_sequence_filled.svg"
+  },
+  {
+    "id": "text_number_sequence_regular",
+    "name": "Text Number Sequence Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_number_sequence_regular.svg"
+  },
+  {
+    "id": "text_py_filled",
+    "name": "Text Py Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_py_filled.svg"
+  },
+  {
+    "id": "text_py_regular",
+    "name": "Text Py Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/text_py_regular.svg"
+  },
+  {
+    "id": "toggle_multiple_sparkles_filled",
+    "name": "Toggle Multiple Sparkles Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/toggle_multiple_sparkles_filled.svg"
+  },
+  {
+    "id": "toggle_multiple_sparkles_regular",
+    "name": "Toggle Multiple Sparkles Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/toggle_multiple_sparkles_regular.svg"
+  },
+  {
+    "id": "tooltip_data_bar_vertical_filled",
+    "name": "Tooltip Data Bar Vertical Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/tooltip_data_bar_vertical_filled.svg"
+  },
+  {
+    "id": "tooltip_data_bar_vertical_regular",
+    "name": "Tooltip Data Bar Vertical Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/tooltip_data_bar_vertical_regular.svg"
+  },
+  {
+    "id": "trophy_data_bar_vertical_filled",
+    "name": "Trophy Data Bar Vertical Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/trophy_data_bar_vertical_filled.svg"
+  },
+  {
+    "id": "trophy_data_bar_vertical_regular",
+    "name": "Trophy Data Bar Vertical Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/trophy_data_bar_vertical_regular.svg"
+  },
+  {
+    "id": "trophy_prohibited_filled",
+    "name": "Trophy Prohibited Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/trophy_prohibited_filled.svg"
+  },
+  {
+    "id": "trophy_prohibited_regular",
+    "name": "Trophy Prohibited Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/trophy_prohibited_regular.svg"
+  },
+  {
+    "id": "user_data_function_item",
+    "name": "User Data Function Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/user_data_function_item.svg"
+  },
+  {
+    "id": "variable_library_item",
+    "name": "Variable Library Item",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/variable_library_item.svg"
+  },
+  {
+    "id": "vehicle_ship_filled",
+    "name": "Vehicle Ship Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/vehicle_ship_filled.svg"
+  },
+  {
+    "id": "vehicle_ship_regular",
+    "name": "Vehicle Ship Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/vehicle_ship_regular.svg"
+  },
+  {
+    "id": "vehicle_subway_filled",
+    "name": "Vehicle Subway Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/vehicle_subway_filled.svg"
+  },
+  {
+    "id": "vehicle_subway_regular",
+    "name": "Vehicle Subway Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/vehicle_subway_regular.svg"
+  },
+  {
+    "id": "window_asterisk_filled",
+    "name": "Window Asterisk Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_asterisk_filled.svg"
+  },
+  {
+    "id": "window_asterisk_new_filled",
+    "name": "Window Asterisk New Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_asterisk_new_filled.svg"
+  },
+  {
+    "id": "window_asterisk_new_regular",
+    "name": "Window Asterisk New Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_asterisk_new_regular.svg"
+  },
+  {
+    "id": "window_asterisk_regular",
+    "name": "Window Asterisk Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_asterisk_regular.svg"
+  },
+  {
+    "id": "window_bullet_list_filter_filled",
+    "name": "Window Bullet List Filter Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_bullet_list_filter_filled.svg"
+  },
+  {
+    "id": "window_bullet_list_filter_regular",
+    "name": "Window Bullet List Filter Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_bullet_list_filter_regular.svg"
+  },
+  {
+    "id": "window_checkmark_filled",
+    "name": "Window Checkmark Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_checkmark_filled.svg"
+  },
+  {
+    "id": "window_checkmark_regular",
+    "name": "Window Checkmark Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_checkmark_regular.svg"
+  },
+  {
+    "id": "window_code_filled",
+    "name": "Window Code Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_code_filled.svg"
+  },
+  {
+    "id": "window_code_regular",
+    "name": "Window Code Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_code_regular.svg"
+  },
+  {
+    "id": "window_database_arrow_up_filled",
+    "name": "Window Database Arrow Up Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_database_arrow_up_filled.svg"
+  },
+  {
+    "id": "window_database_arrow_up_regular",
+    "name": "Window Database Arrow Up Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_database_arrow_up_regular.svg"
+  },
+  {
+    "id": "window_gauge_filled",
+    "name": "Window Gauge Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_gauge_filled.svg"
+  },
+  {
+    "id": "window_gauge_regular",
+    "name": "Window Gauge Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_gauge_regular.svg"
+  },
+  {
+    "id": "window_interface_filled",
+    "name": "Window Interface Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_interface_filled.svg"
+  },
+  {
+    "id": "window_interface_regular",
+    "name": "Window Interface Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_interface_regular.svg"
+  },
+  {
+    "id": "window_math_formula_filled",
+    "name": "Window Math Formula Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_math_formula_filled.svg"
+  },
+  {
+    "id": "window_math_formula_regular",
+    "name": "Window Math Formula Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_math_formula_regular.svg"
+  },
+  {
+    "id": "window_person_filled",
+    "name": "Window Person Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_person_filled.svg"
+  },
+  {
+    "id": "window_person_regular",
+    "name": "Window Person Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_person_regular.svg"
+  },
+  {
+    "id": "window_pulse_filled",
+    "name": "Window Pulse Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_pulse_filled.svg"
+  },
+  {
+    "id": "window_pulse_regular",
+    "name": "Window Pulse Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_pulse_regular.svg"
+  },
+  {
+    "id": "window_relationship_filled",
+    "name": "Window Relationship Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_relationship_filled.svg"
+  },
+  {
+    "id": "window_relationship_off_filled",
+    "name": "Window Relationship Off Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_relationship_off_filled.svg"
+  },
+  {
+    "id": "window_relationship_off_regular",
+    "name": "Window Relationship Off Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_relationship_off_regular.svg"
+  },
+  {
+    "id": "window_relationship_regular",
+    "name": "Window Relationship Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_relationship_regular.svg"
+  },
+  {
+    "id": "window_sparkle_filled",
+    "name": "Window Sparkle Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_sparkle_filled.svg"
+  },
+  {
+    "id": "window_sparkle_new_filled",
+    "name": "Window Sparkle New Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_sparkle_new_filled.svg"
+  },
+  {
+    "id": "window_sparkle_new_regular",
+    "name": "Window Sparkle New Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_sparkle_new_regular.svg"
+  },
+  {
+    "id": "window_sparkle_regular",
+    "name": "Window Sparkle Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_sparkle_regular.svg"
+  },
+  {
+    "id": "window_synapse_link_filled",
+    "name": "Window Synapse Link Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_synapse_link_filled.svg"
+  },
+  {
+    "id": "window_synapse_link_regular",
+    "name": "Window Synapse Link Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_synapse_link_regular.svg"
+  },
+  {
+    "id": "window_tree_arrow_diagonal_up_right_filled",
+    "name": "Window Tree Arrow Diagonal Up Right Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_tree_arrow_diagonal_up_right_filled.svg"
+  },
+  {
+    "id": "window_tree_arrow_diagonal_up_right_regular",
+    "name": "Window Tree Arrow Diagonal Up Right Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_tree_arrow_diagonal_up_right_regular.svg"
+  },
+  {
+    "id": "window_tree_filled",
+    "name": "Window Tree Filled",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_tree_filled.svg"
+  },
+  {
+    "id": "window_tree_regular",
+    "name": "Window Tree Regular",
+    "category": "fabric",
+    "slug": "fabric",
+    "path": "/icons/fabric/window_tree_regular.svg"
+  },
+  {
+    "id": "Agent365_scalable",
+    "name": "Agent365",
+    "category": "agent 365",
+    "slug": "agent-365",
+    "path": "/icons/agent-365/Agent365_scalable.svg"
+  },
+  {
+    "id": "CopilotStudio_scalable",
+    "name": "Copilot Studio",
+    "category": "copilot studio",
+    "slug": "Copilot-studio",
+    "path": "/icons/Copilot-studio/CopilotStudio_scalable.svg"
+  },
+  {
+    "id": "BusinessCentral_scalable",
+    "name": "Business Central",
+    "category": "dynamics 365",
+    "slug": "dynamics-365",
+    "path": "/icons/dynamics-365/BusinessCentral_scalable.svg"
+  },
+  {
+    "id": "Commerce_scalable",
+    "name": "Commerce",
+    "category": "dynamics 365",
+    "slug": "dynamics-365",
+    "path": "/icons/dynamics-365/Commerce_scalable.svg"
+  },
+  {
+    "id": "ContactCenter_scalable",
+    "name": "Contact Center",
+    "category": "dynamics 365",
+    "slug": "dynamics-365",
+    "path": "/icons/dynamics-365/ContactCenter_scalable.svg"
+  },
+  {
+    "id": "CustomerInsights_scalable",
+    "name": "Customer Insights",
+    "category": "dynamics 365",
+    "slug": "dynamics-365",
+    "path": "/icons/dynamics-365/CustomerInsights_scalable.svg"
+  },
+  {
+    "id": "CustomerServices_scalable",
+    "name": "Customer Services",
+    "category": "dynamics 365",
+    "slug": "dynamics-365",
+    "path": "/icons/dynamics-365/CustomerServices_scalable.svg"
+  },
+  {
+    "id": "CustomerVoice_scalable",
+    "name": "Customer Voice",
+    "category": "dynamics 365",
+    "slug": "dynamics-365",
+    "path": "/icons/dynamics-365/CustomerVoice_scalable.svg"
+  },
+  {
+    "id": "Dynamics365_scalable",
+    "name": "Dynamics365",
+    "category": "dynamics 365",
+    "slug": "dynamics-365",
+    "path": "/icons/dynamics-365/Dynamics365_scalable.svg"
+  },
+  {
+    "id": "FieldService_scalable",
+    "name": "Field Service",
+    "category": "dynamics 365",
+    "slug": "dynamics-365",
+    "path": "/icons/dynamics-365/FieldService_scalable.svg"
+  },
+  {
+    "id": "FinanceOperations_scalable",
+    "name": "Finance Operations",
+    "category": "dynamics 365",
+    "slug": "dynamics-365",
+    "path": "/icons/dynamics-365/FinanceOperations_scalable.svg"
+  },
+  {
+    "id": "Finance_scalable",
+    "name": "Finance",
+    "category": "dynamics 365",
+    "slug": "dynamics-365",
+    "path": "/icons/dynamics-365/Finance_scalable.svg"
+  },
+  {
+    "id": "HumanResources_scalable",
+    "name": "Human Resources",
+    "category": "dynamics 365",
+    "slug": "dynamics-365",
+    "path": "/icons/dynamics-365/HumanResources_scalable.svg"
+  },
+  {
+    "id": "IntelligentOrderManagement_scalable",
+    "name": "Intelligent Order Management",
+    "category": "dynamics 365",
+    "slug": "dynamics-365",
+    "path": "/icons/dynamics-365/IntelligentOrderManagement_scalable.svg"
+  },
+  {
+    "id": "ProjectOperations_scalable",
+    "name": "Project Operations",
+    "category": "dynamics 365",
+    "slug": "dynamics-365",
+    "path": "/icons/dynamics-365/ProjectOperations_scalable.svg"
+  },
+  {
+    "id": "SalesInsights_scalable",
+    "name": "Sales Insights",
+    "category": "dynamics 365",
+    "slug": "dynamics-365",
+    "path": "/icons/dynamics-365/SalesInsights_scalable.svg"
+  },
+  {
+    "id": "Sales_scalable",
+    "name": "Sales",
+    "category": "dynamics 365",
+    "slug": "dynamics-365",
+    "path": "/icons/dynamics-365/Sales_scalable.svg"
+  },
+  {
+    "id": "SupplyChainManagement_scalable",
+    "name": "Supply Chain Management",
+    "category": "dynamics 365",
+    "slug": "dynamics-365",
+    "path": "/icons/dynamics-365/SupplyChainManagement_scalable.svg"
+  },
+  {
+    "id": "AIBuilder_scalable",
+    "name": "AI Builder",
+    "category": "power platform",
+    "slug": "power-platform",
+    "path": "/icons/power-platform/AIBuilder_scalable.svg"
+  },
+  {
+    "id": "Dataverse_scalable",
+    "name": "Dataverse",
+    "category": "power platform",
+    "slug": "power-platform",
+    "path": "/icons/power-platform/Dataverse_scalable.svg"
+  },
+  {
+    "id": "PowerApps_scalable",
+    "name": "Power Apps",
+    "category": "power platform",
+    "slug": "power-platform",
+    "path": "/icons/power-platform/PowerApps_scalable.svg"
+  },
+  {
+    "id": "PowerAutomate_scalable",
+    "name": "Power Automate",
+    "category": "power platform",
+    "slug": "power-platform",
+    "path": "/icons/power-platform/PowerAutomate_scalable.svg"
+  },
+  {
+    "id": "PowerPages_scalable",
+    "name": "Power Pages",
+    "category": "power platform",
+    "slug": "power-platform",
+    "path": "/icons/power-platform/PowerPages_scalable.svg"
   }
 ]
