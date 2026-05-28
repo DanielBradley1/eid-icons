@@ -18,8 +18,8 @@ function AboutPage() {
               focus on automation, identity, and admin tooling.
             </p>
             <p>
-              I built <strong>MS Icons</strong> as a community project — a faster, cleaner way to
-              find and download Microsoft Azure architecture icons than hunting through official
+              I built <strong>MS Icons</strong> as a community project, to be a faster, cleaner way to
+              find and download Microsoft architecture icons than hunting through official
               documentation. It's not affiliated with Microsoft in any way; it's just something I
               wanted to exist. Icons remain the property of Microsoft and are subject to their
               respective terms of use.
