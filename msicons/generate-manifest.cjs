@@ -26,19 +26,40 @@ function ensureDir(dir) {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 }
 
-// Clear old public/icons to avoid stale slugged folders from previous runs
-if (fs.existsSync(iconsDestDir)) {
-  fs.rmSync(iconsDestDir, { recursive: true, force: true });
+/** Convert a PascalCase filename (without extension) to a display name.
+ *  e.g. "BusinessCentral_scalable" → "Business Central"
+ *       "AIBuilder_scalable"       → "AI Builder"
+ */
+function toDisplayName(id) {
+  return id
+    .replace(/_scalable$/, '')
+    .replace(/_/g, ' ')
+    .replace(/([a-z0-9])([A-Z])/g, '$1 $2')
+    .replace(/([A-Z]+)([A-Z][a-z])/g, '$1 $2')
+    .trim();
 }
+
 ensureDir(iconsDestDir);
 ensureDir(path.join(__dirname, 'src', 'data'));
 
-const icons = [];
-const processedCategories = [];
-
+// Compute which slugs will be generated from ../icons/ so we only clear those
 const categoryFolders = fs.readdirSync(iconsSourceDir).filter(item =>
   fs.statSync(path.join(iconsSourceDir, item)).isDirectory()
 );
+const generatedSlugs = new Set(categoryFolders.map(slugify));
+
+// Remove only the auto-generated slug folders, leaving manually placed ones intact
+if (fs.existsSync(iconsDestDir)) {
+  for (const entry of fs.readdirSync(iconsDestDir)) {
+    const entryPath = path.join(iconsDestDir, entry);
+    if (fs.statSync(entryPath).isDirectory() && generatedSlugs.has(entry)) {
+      fs.rmSync(entryPath, { recursive: true, force: true });
+    }
+  }
+}
+
+const icons = [];
+const processedCategories = [];
 
 for (const category of categoryFolders) {
   const categoryPath = path.join(iconsSourceDir, category);
@@ -77,12 +98,46 @@ for (const category of categoryFolders) {
   process.stdout.write(`  ✓ ${category} (${files.length} icons)\n`);
 }
 
+// Process any extra folders in public/icons/ that were NOT generated from ../icons/
+// (e.g. fabric, agent-365, dynamics-365, power-platform, Copilot-studio)
+const extraFolderMeta = {
+  'fabric':          { category: 'fabric',          slug: 'fabric' },
+  'agent-365':       { category: 'agent 365',        slug: 'agent-365' },
+  'Copilot-studio':  { category: 'copilot studio',   slug: 'Copilot-studio' },
+  'dynamics-365':    { category: 'dynamics 365',     slug: 'dynamics-365' },
+  'power-platform':  { category: 'power platform',   slug: 'power-platform' },
+};
+
+for (const [folder, meta] of Object.entries(extraFolderMeta)) {
+  const folderPath = path.join(iconsDestDir, folder);
+  if (!fs.existsSync(folderPath)) continue;
+
+  const files = fs.readdirSync(folderPath).filter(f => f.endsWith('.svg')).sort();
+  if (files.length === 0) continue;
+
+  for (const file of files) {
+    const id = file.replace(/\.svg$/, '');
+    const name = toDisplayName(id)
+      // also handle underscore-separated names (fabric icons)
+      || id.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+    icons.push({
+      id,
+      name,
+      category: meta.category,
+      slug: meta.slug,
+      path: `/icons/${folder}/${file}`
+    });
+  }
+
+  process.stdout.write(`  ✓ ${meta.category} (${files.length} icons) [extra]\n`);
+}
+
 fs.writeFileSync(manifestPath, JSON.stringify(icons, null, 2));
-console.log(`\nDone! ${icons.length} icons across ${processedCategories.length} categories → src/data/icons.json`);
+console.log(`\nDone! ${icons.length} icons across ${processedCategories.length} categories (+extras) → src/data/icons.json`);
 
 // ── SEO files ────────────────────────────────────────────────────────────────
 
-const BASE_URL = 'https://msicons.app';
+const BASE_URL = 'https://msicons.com';
 
 /** Replicate src/utils/format.js iconSlug */
 function iconNameSlug(name) {
