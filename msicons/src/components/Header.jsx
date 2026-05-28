@@ -8,10 +8,13 @@ function Header() {
     <header className="header">
       <div className="header-inner">
         <Link className="logo" to="/" aria-label="MSIcons home">
-          <span className="logo-text">
-            <span className="logo-ms">MS</span> Icons
-          </span>
-          <span className="logo-sub">A public repository of Microsoft architecture icons</span>
+          <img src="/android-chrome-192x192.png" alt="" className="logo-img" aria-hidden="true" />
+          <div className="logo-text-wrap">
+            <span className="logo-text">
+              <span className="logo-ms">MS</span> Icons
+            </span>
+            <span className="logo-sub">A public repository of Microsoft architecture icons</span>
+          </div>
         </Link>
 
         <nav className="header-nav" aria-label="Site links">
