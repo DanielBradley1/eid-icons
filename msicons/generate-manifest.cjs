@@ -1,32 +1,24 @@
 /**
  * generate-manifest.cjs
  * Run with: node generate-manifest.cjs
- * Copies all SVG icons from ../icons/ into public/icons/ and generates src/data/icons.json
- * Folder names are slugified to avoid URL encoding issues (e.g. "ai + machine learning" → "ai-machine-learning")
+ * Reads SVG icons directly from public/icons/ and generates src/data/icons.json
  */
 const fs = require('fs');
 const path = require('path');
 
-const iconsSourceDir = path.join(__dirname, '..', 'icons');
-const iconsDestDir = path.join(__dirname, 'public', 'icons');
+const iconsDir = path.join(__dirname, 'public', 'icons');
 const manifestPath = path.join(__dirname, 'src', 'data', 'icons.json');
 
-/** Convert a category folder name into a clean URL-safe slug */
-function slugify(name) {
-  return name
-    .toLowerCase()
-    .replace(/\s*\+\s*/g, '-')   // "ai + machine learning" → "ai-machine learning"
-    .replace(/\s+/g, '-')         // spaces → hyphens
-    .replace(/[^a-z0-9-]/g, '')   // strip all other chars
-    .replace(/-+/g, '-')          // collapse multiple hyphens
-    .replace(/^-|-$/g, '');       // trim leading/trailing hyphens
+/** Derive a display category name from a folder/slug name */
+function categoryFromFolder(folder) {
+  return folder.toLowerCase().replace(/-/g, ' ');
 }
 
 function ensureDir(dir) {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 }
 
-/** Convert a PascalCase filename (without extension) to a display name.
+/** Convert a PascalCase/underscore filename (without extension) to a display name.
  *  e.g. "BusinessCentral_scalable" → "Business Central"
  *       "AIBuilder_scalable"       → "AI Builder"
  */
@@ -39,121 +31,60 @@ function toDisplayName(id) {
     .trim();
 }
 
-ensureDir(iconsDestDir);
 ensureDir(path.join(__dirname, 'src', 'data'));
 
-// Compute which slugs will be generated from ../icons/ so we only clear those
-const categoryFolders = fs.readdirSync(iconsSourceDir).filter(item =>
-  fs.statSync(path.join(iconsSourceDir, item)).isDirectory()
-);
-const generatedSlugs = new Set(categoryFolders.map(slugify));
-
-// Remove only the auto-generated slug folders, leaving manually placed ones intact
-if (fs.existsSync(iconsDestDir)) {
-  for (const entry of fs.readdirSync(iconsDestDir)) {
-    const entryPath = path.join(iconsDestDir, entry);
-    if (fs.statSync(entryPath).isDirectory() && generatedSlugs.has(entry)) {
-      fs.rmSync(entryPath, { recursive: true, force: true });
-    }
-  }
-}
-
-const icons = [];
-const processedCategories = [];
-
-for (const category of categoryFolders) {
-  const categoryPath = path.join(iconsSourceDir, category);
-  const files = fs.readdirSync(categoryPath).filter(f => f.endsWith('.svg'));
-
-  if (files.length === 0) continue;
-
-  processedCategories.push(category);
-
-  const slug = slugify(category);
-  const categoryDestPath = path.join(iconsDestDir, slug);
-  ensureDir(categoryDestPath);
-
-  for (const file of files) {
-    fs.copyFileSync(
-      path.join(categoryPath, file),
-      path.join(categoryDestPath, file)
-    );
-
-    const id = file.replace(/\.svg$/, '');
-    const name = id
-      .replace(/^\d+-/, '')
-      .replace(/^icon-service-/, '')
-      .replace(/-/g, ' ')
-      .trim();
-
-    icons.push({
-      id,
-      name,
-      category,
-      slug,
-      path: `/icons/${slug}/${file}`
-    });
-  }
-
-  process.stdout.write(`  ✓ ${category} (${files.length} icons)\n`);
-}
-
-// Process any extra folders in public/icons/ that were NOT generated from ../icons/
-// (e.g. fabric, agent-365, dynamics-365, power-platform, Copilot-studio)
-const extraFolderMeta = {
-  'fabric':             { category: 'fabric',             slug: 'fabric' },
-  'agent-365':          { category: 'agent 365',           slug: 'agent-365' },
-  'Copilot-studio':     { category: 'copilot studio',      slug: 'Copilot-studio' },
-  'dynamics-365':       { category: 'dynamics 365',        slug: 'dynamics-365' },
-  'power-platform':     { category: 'power platform',      slug: 'power-platform' },
-  'microsoft-teams':    { category: 'microsoft teams',     slug: 'microsoft-teams' },
-  'Microsoft':          { category: 'microsoft',           slug: 'Microsoft' },
-  'Planner':            { category: 'planner',             slug: 'Planner' },
-  'sharepoint':         { category: 'sharepoint',          slug: 'sharepoint' },
-  'project':            { category: 'project',             slug: 'project' },
+// Folders whose icon filenames use a colour-variant prefix instead of the standard naming
+const colourVariantFolders = new Set(['microsoft-teams', 'Microsoft']);
+const colourLabels = {
+  'dark-purple': 'Dark Purple', 'grey-purple': 'Grey & Purple', 'light-purple': 'Light Purple',
+  'dark-blue': 'Dark Blue',     'grey-blue': 'Grey & Blue',     'light-blue': 'Light Blue',
 };
 
-for (const [folder, meta] of Object.entries(extraFolderMeta)) {
-  const folderPath = path.join(iconsDestDir, folder);
-  if (!fs.existsSync(folderPath)) continue;
+const icons = [];
 
+const allFolders = fs.readdirSync(iconsDir)
+  .filter(item => fs.statSync(path.join(iconsDir, item)).isDirectory())
+  .sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+
+for (const folder of allFolders) {
+  const folderPath = path.join(iconsDir, folder);
   const files = fs.readdirSync(folderPath).filter(f => f.endsWith('.svg')).sort();
   if (files.length === 0) continue;
+
+  const slug = folder;
+  const category = categoryFromFolder(folder);
 
   for (const file of files) {
     const id = file.replace(/\.svg$/, '');
     let name;
-    if (folder === 'microsoft-teams' || folder === 'Microsoft') {
-      // Files are prefixed: "dark-purple-Apps List Detail" → "Apps List Detail (Dark Purple)"
-      const teamsMatch = id.match(/^(dark-purple|grey-purple|light-purple|dark-blue|grey-blue|light-blue)-(.+)$/i);
-      if (teamsMatch) {
-        const colourLabel = {
-          'dark-purple': 'Dark Purple', 'grey-purple': 'Grey & Purple', 'light-purple': 'Light Purple',
-          'dark-blue': 'Dark Blue', 'grey-blue': 'Grey & Blue', 'light-blue': 'Light Blue',
-        }[teamsMatch[1].toLowerCase()];
-        name = `${teamsMatch[2]} (${colourLabel})`;
+
+    if (colourVariantFolders.has(folder)) {
+      const m = id.match(/^(dark-purple|grey-purple|light-purple|dark-blue|grey-blue|light-blue)-(.+)$/i);
+      if (m) {
+        name = `${m[2]} (${colourLabels[m[1].toLowerCase()]})`;
       } else {
         name = id.replace(/_/g, ' ');
       }
+    } else if (/^\d+-icon-service-/.test(id)) {
+      // Standard Azure icon naming: "00028-icon-service-Batch-AI" → "Batch AI"
+      name = id
+        .replace(/^\d+-/, '')
+        .replace(/^icon-service-/, '')
+        .replace(/-/g, ' ')
+        .trim();
     } else {
-      name = toDisplayName(id)
-        // also handle underscore-separated names (fabric icons)
-        || id.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+      // Fabric-style CamelCase / underscore names
+      name = toDisplayName(id) || id.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
     }
-    icons.push({
-      id,
-      name,
-      category: meta.category,
-      slug: meta.slug,
-      path: `/icons/${folder}/${file}`
-    });
+
+    icons.push({ id, name, category, slug, path: `/icons/${folder}/${file}` });
   }
 
-  process.stdout.write(`  ✓ ${meta.category} (${files.length} icons) [extra]\n`);
+  process.stdout.write(`  ✓ ${folder} (${files.length} icons)\n`);
 }
 
 fs.writeFileSync(manifestPath, JSON.stringify(icons, null, 2));
-console.log(`\nDone! ${icons.length} icons across ${processedCategories.length} categories (+extras) → src/data/icons.json`);
+console.log(`\nDone! ${icons.length} icons across ${allFolders.length} folders → src/data/icons.json`);
 
 // ── SEO files ────────────────────────────────────────────────────────────────
 
