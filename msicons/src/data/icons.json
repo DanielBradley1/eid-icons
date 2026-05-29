@@ -1960,11 +1960,11 @@
     "path": "/icons/identity/01084-icon-service-Verifiable-Credentials.svg"
   },
   {
-    "id": "02251-icon-service-Entra-Privleged-Identity-Management",
-    "name": "Entra Privleged Identity Management",
+    "id": "02251-icon-service-Entra-Privileged-Identity-Management",
+    "name": "Entra Privileged Identity Management",
     "category": "identity",
     "slug": "identity",
-    "path": "/icons/identity/02251-icon-service-Entra-Privleged-Identity-Management.svg"
+    "path": "/icons/identity/02251-icon-service-Entra-Privileged-Identity-Management.svg"
   },
   {
     "id": "02386-icon-service-API-Proxy",
