@@ -16653,6 +16653,13 @@
     "path": "/icons/sharepoint/Organization_Light.svg"
   },
   {
+    "id": "microsoft-office-sharepoint-2025",
+    "name": "Microsoft Office SharePoint 2025",
+    "category": "sharepoint",
+    "slug": "sharepoint",
+    "path": "/icons/sharepoint/microsoft-office-sharepoint-2025.svg"
+  },
+  {
     "id": "00017-icon-service-Recovery-Services-Vaults",
     "name": "Recovery Services Vaults",
     "category": "storage",
