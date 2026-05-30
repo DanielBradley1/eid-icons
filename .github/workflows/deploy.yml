@@ -43,8 +43,15 @@ jobs:
         run: npm run build -- --base=/
         working-directory: msicons
 
+      - name: Generate per-route stub pages
+        # Creates dist/<slug>/index.html for every icon and static route so
+        # GitHub Pages returns HTTP 200 (not 404) for all deep-link URLs.
+        # Google requires HTTP 200 to index a page; the 404.html trick won't work.
+        run: node generate-stubs.cjs
+        working-directory: msicons
+
       - name: Add SPA 404 fallback
-        # Copies index.html → 404.html so direct URL navigation works on GitHub Pages
+        # Keeps 404.html as a safety net for any URL that has no stub (e.g. old links).
         run: cp msicons/dist/index.html msicons/dist/404.html
 
       - name: Configure GitHub Pages
