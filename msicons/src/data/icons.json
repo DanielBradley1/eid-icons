@@ -16910,5 +16910,12 @@
     "category": "web",
     "slug": "web",
     "path": "/icons/web/10370-icon-service-Azure-Spring-Apps.svg"
+  },
+  {
+    "id": "microsoft-sql-server-2025",
+    "name": "Microsoft SQL Server 2025",
+    "category": "server",
+    "slug": "server",
+    "path": "/icons/server/microsoft-sql-server-2025.svg"
   }
 ]
