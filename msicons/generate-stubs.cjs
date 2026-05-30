@@ -28,9 +28,11 @@ function iconSlug(name) {
 }
 
 function writeStub(slug) {
-  const dir = path.join(distDir, slug)
-  fs.mkdirSync(dir, { recursive: true })
-  fs.writeFileSync(path.join(dir, 'index.html'), template)
+  // Write dist/<slug>.html (not dist/<slug>/index.html). GitHub Pages serves
+  // foo.html at /foo with HTTP 200 and no trailing-slash redirect. Using a
+  // subdirectory would cause GitHub Pages to 301 /foo → /foo/ which breaks
+  // canonical URLs and confuses search engines.
+  fs.writeFileSync(path.join(distDir, `${slug}.html`), template)
 }
 
 // Static app routes
