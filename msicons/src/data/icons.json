@@ -7343,13 +7343,6 @@
     "path": "/icons/integration/02631-icon-service-Logic-Apps.svg"
   },
   {
-    "id": "03335-icon-service-Power-Platform",
-    "name": "Power Platform",
-    "category": "integration",
-    "slug": "integration",
-    "path": "/icons/integration/03335-icon-service-Power-Platform.svg"
-  },
-  {
     "id": "03345-icon-service-Integration-Environments",
     "name": "Integration Environments",
     "category": "integration",
@@ -14490,13 +14483,6 @@
     "path": "/icons/mixed-reality/10352-icon-service-Spatial-Anchor-Accounts.svg"
   },
   {
-    "id": "03335-icon-service-Power-Platform",
-    "name": "Power Platform",
-    "category": "mobile",
-    "slug": "mobile",
-    "path": "/icons/mobile/03335-icon-service-Power-Platform.svg"
-  },
-  {
     "id": "10035-icon-service-App-Services",
     "name": "App Services",
     "category": "mobile",
@@ -16833,13 +16819,6 @@
     "category": "web",
     "slug": "web",
     "path": "/icons/web/03291-icon-service-API-Center.svg"
-  },
-  {
-    "id": "03335-icon-service-Power-Platform",
-    "name": "Power Platform",
-    "category": "web",
-    "slug": "web",
-    "path": "/icons/web/03335-icon-service-Power-Platform.svg"
   },
   {
     "id": "03397-icon-service-App-Space",
