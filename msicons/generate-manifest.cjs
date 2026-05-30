@@ -74,7 +74,12 @@ for (const folder of allFolders) {
         .trim();
     } else {
       // Fabric-style CamelCase / underscore names
-      name = toDisplayName(id) || id.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+      // Also handle all-lowercase dash-separated names (e.g. "microsoft-office-sharepoint-2025")
+      if (/^[a-z0-9]+(-[a-z0-9]+)+$/.test(id)) {
+        name = id.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+      } else {
+        name = toDisplayName(id) || id.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+      }
     }
 
     icons.push({ id, name, category, slug, path: `/icons/${folder}/${file}` });
