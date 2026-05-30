@@ -12,6 +12,17 @@ function Footer() {
           </a>
           . Not affiliated with Microsoft.
         </p>
+        <p className="footer-disclaimer">
+          Icons are property of Microsoft. Please review the official terms of use:{' '}
+          <a href="https://learn.microsoft.com/en-us/azure/architecture/icons/#icon-terms" target="_blank" rel="noopener noreferrer">Azure</a>
+          {', '}
+          <a href="https://learn.microsoft.com/en-us/entra/architecture/architecture-icons" target="_blank" rel="noopener noreferrer">Entra</a>
+          {', '}
+          <a href="https://learn.microsoft.com/en-us/previous-versions/microsoft-365/solutions/architecture-icons-templates" target="_blank" rel="noopener noreferrer">Microsoft 365</a>
+          {', '}
+          <a href="https://learn.microsoft.com/en-us/power-platform/guidance/icons" target="_blank" rel="noopener noreferrer">Power Platform</a>
+          .
+        </p>
         <nav className="footer-nav" aria-label="Footer links">
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
