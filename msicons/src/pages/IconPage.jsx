@@ -1,5 +1,5 @@
 import { useParams, Link, useNavigate } from 'react-router-dom'
-import { useState, useCallback, useMemo } from 'react'
+import { useState, useCallback, useMemo, useEffect } from 'react'
 import icons from '../data/icons.json'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -35,6 +35,31 @@ function IconPage() {
   const related = icon
     ? icons.filter(i => i.category === icon.category && i.id !== icon.id).slice(0, 12)
     : []
+
+  useEffect(() => {
+    if (icon) {
+      document.title = `${icon.name} - MS Icons`
+      const desc = document.querySelector('meta[name="description"]')
+      if (desc) desc.setAttribute('content', `Download the ${icon.name} icon in SVG and PNG format. Part of the Microsoft architecture icon library on MS Icons.`)
+      const canonical = document.querySelector('link[rel="canonical"]')
+      if (canonical) canonical.setAttribute('href', `https://msicons.com/${iconSlug}`)
+      const ogTitle = document.querySelector('meta[property="og:title"]')
+      if (ogTitle) ogTitle.setAttribute('content', `${icon.name} - MS Icons`)
+      const ogUrl = document.querySelector('meta[property="og:url"]')
+      if (ogUrl) ogUrl.setAttribute('content', `https://msicons.com/${iconSlug}`)
+    }
+    return () => {
+      document.title = 'MS Icons – Microsoft Architecture Icon Library'
+      const desc = document.querySelector('meta[name="description"]')
+      if (desc) desc.setAttribute('content', 'Browse, search, filter and download all 700+ official Microsoft architecture icons in SVG and PNG format at any size. A free community resource by Daniel Bradley, Microsoft MVP.')
+      const canonical = document.querySelector('link[rel="canonical"]')
+      if (canonical) canonical.setAttribute('href', 'https://msicons.com/')
+      const ogTitle = document.querySelector('meta[property="og:title"]')
+      if (ogTitle) ogTitle.setAttribute('content', 'MS Icons – Microsoft Architecture Icon Library')
+      const ogUrl = document.querySelector('meta[property="og:url"]')
+      if (ogUrl) ogUrl.setAttribute('content', 'https://msicons.com/')
+    }
+  }, [icon, iconSlug])
 
   const codeSnippets = useMemo(() => {
     if (!icon) return {}
