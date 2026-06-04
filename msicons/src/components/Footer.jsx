@@ -26,6 +26,7 @@ function Footer() {
         <nav className="footer-nav" aria-label="Footer links">
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/submit">Submit Icon</Link>
           <a href="https://ourcloudnetwork.com/" target="_blank" rel="noopener noreferrer">Blog</a>
           <a href="https://msmessagecenter.com/" target="_blank" rel="noopener noreferrer">MS Message Center</a>
           <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap</a>

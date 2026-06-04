@@ -9,6 +9,7 @@ import IconPage from './pages/IconPage'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 import FavoritesPage from './pages/FavoritesPage'
+import SubmitPage from './pages/SubmitPage'
 import { FavoritesProvider } from './context/FavoritesContext'
 import { CompareProvider } from './context/CompareContext'
 import { formatCategory } from './utils/format'
@@ -169,6 +170,7 @@ function AppInner() {
         <Route path="/favorites" element={<FavoritesPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/submit" element={<SubmitPage />} />
         <Route path="/:iconSlug" element={<IconPage />} />
       </Routes>
       <ComparePanel />

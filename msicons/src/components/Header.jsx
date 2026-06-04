@@ -20,6 +20,7 @@ function Header() {
         <nav className="header-nav" aria-label="Site links">
           <Link to="/about" className="nav-link">About</Link>
           <Link to="/contact" className="nav-link">Contact</Link>
+          <Link to="/submit" className="nav-link">Submit Icon</Link>
           <span className="nav-divider" aria-hidden="true"></span>
           <a href="https://msmessagecenter.com/" target="_blank" rel="noopener noreferrer" className="nav-link">
             MS Message Center
