@@ -47,6 +47,45 @@ function IconPage() {
       if (ogTitle) ogTitle.setAttribute('content', `${icon.name} - MS Icons`)
       const ogUrl = document.querySelector('meta[property="og:url"]')
       if (ogUrl) ogUrl.setAttribute('content', `https://msicons.com/${iconSlug}`)
+
+      const iconUrl = `https://msicons.com${icon.path}`
+      const pageUrl = `https://msicons.com/${iconSlug}`
+      const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'ImageObject',
+        '@id': `${pageUrl}#image`,
+        url: iconUrl,
+        contentUrl: iconUrl,
+        name: `${icon.name} Icon`,
+        description: `Official high-resolution transparent SVG icon for ${icon.name}, optimized for cloud architecture diagrams.`,
+        caption: `${icon.name} cloud architecture icon in vector SVG format.`,
+        width: '512',
+        height: '512',
+        fileFormat: 'image/svg+xml',
+        author: {
+          '@type': 'Organization',
+          name: 'MS Icons',
+          url: 'https://msicons.com',
+        },
+        creator: {
+          '@type': 'Person',
+          name: 'Daniel Bradley',
+          url: 'https://www.linkedin.com/in/danielbradley2/',
+        },
+        copyrightHolder: {
+          '@type': 'Organization',
+          name: 'Microsoft Corporation',
+          description: 'Brand assets and trademarks belong to Microsoft.',
+        },
+        copyrightNotice: 'Trademark owned by Microsoft Corporation. Vector asset provided by MS Icons.',
+        license: 'https://msicons.com/about',
+        acquireLicensePage: `${pageUrl}/download`,
+      }
+      const script = document.createElement('script')
+      script.type = 'application/ld+json'
+      script.id = 'icon-page-jsonld'
+      script.textContent = JSON.stringify(jsonLd)
+      document.head.appendChild(script)
     }
     return () => {
       document.title = 'MS Icons – Microsoft Architecture Icon Library'
@@ -58,6 +97,8 @@ function IconPage() {
       if (ogTitle) ogTitle.setAttribute('content', 'MS Icons – Microsoft Architecture Icon Library')
       const ogUrl = document.querySelector('meta[property="og:url"]')
       if (ogUrl) ogUrl.setAttribute('content', 'https://msicons.com/')
+      const existing = document.getElementById('icon-page-jsonld')
+      if (existing) existing.remove()
     }
   }, [icon, iconSlug])
 
