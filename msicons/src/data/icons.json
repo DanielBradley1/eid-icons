@@ -1,5 +1,40 @@
 [
   {
+    "id": "Agent Allowed Agent Types",
+    "name": "Agent Allowed Agent Types",
+    "category": "agent 365",
+    "slug": "agent-365",
+    "path": "/icons/agent-365/Agent Allowed Agent Types.svg"
+  },
+  {
+    "id": "Agent Management Rules",
+    "name": "Agent Management Rules",
+    "category": "agent 365",
+    "slug": "agent-365",
+    "path": "/icons/agent-365/Agent Management Rules.svg"
+  },
+  {
+    "id": "Agent Policy Template",
+    "name": "Agent Policy Template",
+    "category": "agent 365",
+    "slug": "agent-365",
+    "path": "/icons/agent-365/Agent Policy Template.svg"
+  },
+  {
+    "id": "Agent Sharing",
+    "name": "Agent Sharing",
+    "category": "agent 365",
+    "slug": "agent-365",
+    "path": "/icons/agent-365/Agent Sharing.svg"
+  },
+  {
+    "id": "Agent User Access",
+    "name": "Agent User Access",
+    "category": "agent 365",
+    "slug": "agent-365",
+    "path": "/icons/agent-365/Agent User Access.svg"
+  },
+  {
     "id": "Agent365_scalable",
     "name": "Agent365",
     "category": "agent 365",
@@ -7369,6 +7404,41 @@
     "category": "identity",
     "slug": "identity",
     "path": "/icons/identity/10433-icon-service-User-Settings.svg"
+  },
+  {
+    "id": "Diagnose and solve problems",
+    "name": "Diagnose and solve problems",
+    "category": "identity",
+    "slug": "identity",
+    "path": "/icons/identity/Diagnose and solve problems.svg"
+  },
+  {
+    "id": "Entra Identity Risky Agents",
+    "name": "Entra Identity Risky Agents",
+    "category": "identity",
+    "slug": "identity",
+    "path": "/icons/identity/Entra Identity Risky Agents.svg"
+  },
+  {
+    "id": "Entra Identity Risky Workload Identities",
+    "name": "Entra Identity Risky Workload Identities",
+    "category": "identity",
+    "slug": "identity",
+    "path": "/icons/identity/Entra Identity Risky Workload Identities.svg"
+  },
+  {
+    "id": "Risk Policy Impact Analysis",
+    "name": "Risk Policy Impact Analysis",
+    "category": "identity",
+    "slug": "identity",
+    "path": "/icons/identity/Risk Policy Impact Analysis.svg"
+  },
+  {
+    "id": "Tutorials",
+    "name": "Tutorials",
+    "category": "identity",
+    "slug": "identity",
+    "path": "/icons/identity/Tutorials.svg"
   },
   {
     "id": "00036-icon-service-SQL-Data-Warehouses",
@@ -17099,5 +17169,12 @@
     "category": "web",
     "slug": "web",
     "path": "/icons/web/10370-icon-service-Azure-Spring-Apps.svg"
+  },
+  {
+    "id": "Windows365-logo",
+    "name": "Windows365-logo",
+    "category": "windows 365",
+    "slug": "Windows-365",
+    "path": "/icons/Windows-365/Windows365-logo.svg"
   }
 ]

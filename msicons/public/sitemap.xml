@@ -19,6 +19,36 @@
     <lastmod>2026-06-07</lastmod>
   </url>
   <url>
+    <loc>https://msicons.com/agent-allowed-agent-types</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://msicons.com/agent-management-rules</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://msicons.com/agent-policy-template</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://msicons.com/agent-sharing</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://msicons.com/agent-user-access</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-07</lastmod>
+  </url>
+  <url>
     <loc>https://msicons.com/agent365</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -6260,6 +6290,36 @@
   </url>
   <url>
     <loc>https://msicons.com/user-settings</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://msicons.com/diagnose-and-solve-problems</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://msicons.com/entra-identity-risky-agents</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://msicons.com/entra-identity-risky-workload-identities</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://msicons.com/risk-policy-impact-analysis</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://msicons.com/tutorials</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <lastmod>2026-06-07</lastmod>
@@ -14180,6 +14240,12 @@
   </url>
   <url>
     <loc>https://msicons.com/azure-media-service</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-06-07</lastmod>
+  </url>
+  <url>
+    <loc>https://msicons.com/windows365-logo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <lastmod>2026-06-07</lastmod>
