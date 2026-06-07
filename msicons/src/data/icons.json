@@ -238,6 +238,13 @@
     "path": "/icons/ai-machine-learning/10168-icon-service-Machine-Learning-Studio-Web-Service-Plans.svg"
   },
   {
+    "id": "Microsoft-Foundry",
+    "name": "Microsoft-Foundry",
+    "category": "ai machine learning",
+    "slug": "ai-machine-learning",
+    "path": "/icons/ai-machine-learning/Microsoft-Foundry.svg"
+  },
+  {
     "id": "00009-icon-service-Log-Analytics-Workspaces",
     "name": "Log Analytics Workspaces",
     "category": "analytics",
@@ -404,6 +411,69 @@
     "category": "app services",
     "slug": "app-services",
     "path": "/icons/app-services/10047-icon-service-App-Service-Environments.svg"
+  },
+  {
+    "id": "Defender",
+    "name": "Defender",
+    "category": "apps",
+    "slug": "apps",
+    "path": "/icons/apps/Defender.svg"
+  },
+  {
+    "id": "Microsoft Clipchamp",
+    "name": "Microsoft Clipchamp",
+    "category": "apps",
+    "slug": "apps",
+    "path": "/icons/apps/Microsoft Clipchamp.svg"
+  },
+  {
+    "id": "Microsoft Excel",
+    "name": "Microsoft Excel",
+    "category": "apps",
+    "slug": "apps",
+    "path": "/icons/apps/Microsoft Excel.svg"
+  },
+  {
+    "id": "Microsoft Outlook",
+    "name": "Microsoft Outlook",
+    "category": "apps",
+    "slug": "apps",
+    "path": "/icons/apps/Microsoft Outlook.svg"
+  },
+  {
+    "id": "Microsoft Teams",
+    "name": "Microsoft Teams",
+    "category": "apps",
+    "slug": "apps",
+    "path": "/icons/apps/Microsoft Teams.svg"
+  },
+  {
+    "id": "Microsoft Work",
+    "name": "Microsoft Work",
+    "category": "apps",
+    "slug": "apps",
+    "path": "/icons/apps/Microsoft Work.svg"
+  },
+  {
+    "id": "OneDrive",
+    "name": "One Drive",
+    "category": "apps",
+    "slug": "apps",
+    "path": "/icons/apps/OneDrive.svg"
+  },
+  {
+    "id": "OneNote",
+    "name": "One Note",
+    "category": "apps",
+    "slug": "apps",
+    "path": "/icons/apps/OneNote.svg"
+  },
+  {
+    "id": "PowerPoint",
+    "name": "Power Point",
+    "category": "apps",
+    "slug": "apps",
+    "path": "/icons/apps/PowerPoint.svg"
   },
   {
     "id": "01038-icon-service-Collaborative-Service",
@@ -1034,6 +1104,27 @@
     "category": "databases",
     "slug": "databases",
     "path": "/icons/databases/10351-icon-service-SQL-Server-Registries.svg"
+  },
+  {
+    "id": "Data API Builder",
+    "name": "Data API Builder",
+    "category": "databases",
+    "slug": "databases",
+    "path": "/icons/databases/Data API Builder.svg"
+  },
+  {
+    "id": "Microsoft_SQL_Server_2025_icon",
+    "name": "Microsoft SQL Server 2025 icon",
+    "category": "databases",
+    "slug": "databases",
+    "path": "/icons/databases/Microsoft_SQL_Server_2025_icon.svg"
+  },
+  {
+    "id": "SQL Server Management Studio",
+    "name": "SQL Server Management Studio",
+    "category": "databases",
+    "slug": "databases",
+    "path": "/icons/databases/SQL Server Management Studio.svg"
   },
   {
     "id": "00012-icon-service-Application-Insights",
@@ -7497,11 +7588,11 @@
     "path": "/icons/intune/00399-icon-service-Device-Security-Windows.svg"
   },
   {
-    "id": "10329-icon-service-Intune",
-    "name": "Intune",
+    "id": "10329-icon-service-Intune-old",
+    "name": "Intune old",
     "category": "intune",
     "slug": "intune",
-    "path": "/icons/intune/10329-icon-service-Intune.svg"
+    "path": "/icons/intune/10329-icon-service-Intune-old.svg"
   },
   {
     "id": "10330-icon-service-eBooks",
@@ -7600,6 +7691,13 @@
     "category": "intune",
     "slug": "intune",
     "path": "/icons/intune/10350-icon-service-Mindaro.svg"
+  },
+  {
+    "id": "Microsoft-intune",
+    "name": "Microsoft-intune",
+    "category": "intune",
+    "slug": "intune",
+    "path": "/icons/intune/Microsoft-intune.svg"
   },
   {
     "id": "00030-icon-service-Machine-Learning-Studio-(Classic)-Web-Services",
@@ -16633,7 +16731,7 @@
   },
   {
     "id": "microsoft-sql-server-2025",
-    "name": "Microsoft SQL Server 2025",
+    "name": "Microsoft Sql Server 2025",
     "category": "server",
     "slug": "server",
     "path": "/icons/server/microsoft-sql-server-2025.svg"
@@ -16798,6 +16896,83 @@
     "category": "storage",
     "slug": "storage",
     "path": "/icons/storage/10400-icon-service-Azure-Fileshares.svg"
+  },
+  {
+    "id": "viva-amplify",
+    "name": "Viva Amplify",
+    "category": "viva",
+    "slug": "viva",
+    "path": "/icons/viva/viva-amplify.svg"
+  },
+  {
+    "id": "viva-connections",
+    "name": "Viva Connections",
+    "category": "viva",
+    "slug": "viva",
+    "path": "/icons/viva/viva-connections.svg"
+  },
+  {
+    "id": "viva-engage",
+    "name": "Viva Engage",
+    "category": "viva",
+    "slug": "viva",
+    "path": "/icons/viva/viva-engage.svg"
+  },
+  {
+    "id": "viva-glint",
+    "name": "Viva Glint",
+    "category": "viva",
+    "slug": "viva",
+    "path": "/icons/viva/viva-glint.svg"
+  },
+  {
+    "id": "viva-goals",
+    "name": "Viva Goals",
+    "category": "viva",
+    "slug": "viva",
+    "path": "/icons/viva/viva-goals.svg"
+  },
+  {
+    "id": "viva-insights",
+    "name": "Viva Insights",
+    "category": "viva",
+    "slug": "viva",
+    "path": "/icons/viva/viva-insights.svg"
+  },
+  {
+    "id": "viva-learning",
+    "name": "Viva Learning",
+    "category": "viva",
+    "slug": "viva",
+    "path": "/icons/viva/viva-learning.svg"
+  },
+  {
+    "id": "viva-pulse",
+    "name": "Viva Pulse",
+    "category": "viva",
+    "slug": "viva",
+    "path": "/icons/viva/viva-pulse.svg"
+  },
+  {
+    "id": "viva-sales",
+    "name": "Viva Sales",
+    "category": "viva",
+    "slug": "viva",
+    "path": "/icons/viva/viva-sales.svg"
+  },
+  {
+    "id": "viva-suite",
+    "name": "Viva Suite",
+    "category": "viva",
+    "slug": "viva",
+    "path": "/icons/viva/viva-suite.svg"
+  },
+  {
+    "id": "viva-topics",
+    "name": "Viva Topics",
+    "category": "viva",
+    "slug": "viva",
+    "path": "/icons/viva/viva-topics.svg"
   },
   {
     "id": "00046-icon-service-App-Service-Plans",
