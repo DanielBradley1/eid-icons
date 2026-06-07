@@ -448,11 +448,11 @@
     "path": "/icons/apps/Microsoft Teams.svg"
   },
   {
-    "id": "Microsoft Work",
-    "name": "Microsoft Work",
+    "id": "Microsoft Word",
+    "name": "Microsoft Word",
     "category": "apps",
     "slug": "apps",
-    "path": "/icons/apps/Microsoft Work.svg"
+    "path": "/icons/apps/Microsoft Word.svg"
   },
   {
     "id": "OneDrive",
