@@ -37,7 +37,7 @@
 .logo-img {
   width: 36px;
   height: 36px;
-  border-radius: 6px;
+  border-radius: 0;
   flex-shrink: 0;
 }
 
@@ -87,7 +87,7 @@
 
 .nav-link {
   padding: 6px 12px;
-  border-radius: 8px;
+  border-radius: 0;
   font-size: 14px;
   font-weight: 500;
   color: #374151;
@@ -182,7 +182,7 @@
   width: 100%;
   padding: 12px 44px 12px 44px;
   border: 1px solid #d1d5db;
-  border-radius: 8px;
+  border-radius: 0;
   font-size: 14px;
   font-weight: 400;
   background: #ffffff;
@@ -197,7 +197,7 @@
 
 .search-input:focus {
   border-color: #2563eb;
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  border-width: 2px;
 }
 
 .search-input::-webkit-search-cancel-button {
@@ -213,7 +213,7 @@
   font-size: 12px;
   color: #6b7280;
   padding: 4px 6px;
-  border-radius: 4px;
+  border-radius: 0;
   transition: background 0.1s, color 0.1s;
   line-height: 1;
 }
@@ -234,7 +234,7 @@
 .filter-select {
   padding: 8px 12px;
   border: 1px solid #d1d5db;
-  border-radius: 8px;
+  border-radius: 0;
   font-size: 14px;
   font-weight: 400;
   color: #111827;
@@ -247,14 +247,14 @@
 
 .filter-select:focus {
   border-color: #2563eb;
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  border-width: 2px;
 }
 
 .clear-btn {
   padding: 8px 14px;
   background: none;
   border: 1px solid #d1d5db;
-  border-radius: 8px;
+  border-radius: 0;
   font-size: 13px;
   font-weight: 500;
   color: #6b7280;
@@ -315,7 +315,7 @@
   align-items: center;
   justify-content: center;
   background: #f1f5f9;
-  border-radius: 6px;
+  border-radius: 0;
   font-size: 20px;
   color: #94a3b8;
 }
@@ -334,8 +334,8 @@
 
 /* ─── Empty State ─────────────────────────────────────────── */
 .empty-state {
-  text-align: center;
-  padding: 80px 24px;
+  text-align: left;
+  padding: 60px 0;
 }
 
 .empty-icon {
@@ -368,7 +368,7 @@
   padding: 8px 18px;
   background: #ffffff;
   border: 1px solid #d1d5db;
-  border-radius: 8px;
+  border-radius: 0;
   cursor: pointer;
   font-size: 13px;
   font-weight: 500;
@@ -414,12 +414,12 @@
 
 .modal {
   background: #ffffff;
-  border-radius: 12px;
+  border-radius: 0;
   padding: 32px;
   max-width: 440px;
   width: 100%;
   position: relative;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 0 0 #111827;
   animation: slideUp 0.18s ease;
 }
 
@@ -442,7 +442,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 6px;
+  border-radius: 0;
   transition: background 0.12s, color 0.12s;
 }
 
@@ -454,11 +454,11 @@
 .modal-preview {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background: #f8fafc;
   border: 1px solid #e5e7eb;
-  border-radius: 10px;
-  padding: 28px;
+  border-radius: 0;
+  padding: 20px 28px;
   margin-bottom: 20px;
 }
 
@@ -469,7 +469,7 @@
 }
 
 .modal-info {
-  text-align: center;
+  text-align: left;
   margin-bottom: 22px;
 }
 
@@ -499,7 +499,7 @@
   font-weight: 500;
   text-align: center;
   padding: 8px 12px;
-  border-radius: 6px;
+  border-radius: 0;
   margin-bottom: 16px;
 }
 
@@ -522,7 +522,7 @@
 
 .download-section {
   border: 1px solid #e5e7eb;
-  border-radius: 8px;
+  border-radius: 0;
   padding: 16px;
   display: flex;
   flex-direction: column;
@@ -555,9 +555,9 @@
 }
 
 .size-btn {
-  padding: 4px 10px;
+  padding: 4px 12px;
   border: 1px solid #d1d5db;
-  border-radius: 6px;
+  border-radius: 9999px;
   background: #ffffff;
   cursor: pointer;
   font-size: 12px;
@@ -580,7 +580,7 @@
 .btn {
   width: 100%;
   padding: 9px 16px;
-  border-radius: 6px;
+  border-radius: 0;
   border: none;
   cursor: pointer;
   font-size: 13.5px;
@@ -709,7 +709,7 @@
   justify-content: center;
   background: #f8fafc;
   border: 1px solid #e5e7eb;
-  border-radius: 16px;
+  border-radius: 0;
   padding: 32px;
 }
 
@@ -795,22 +795,21 @@
 .related-card {
   background: #ffffff;
   border: 1px solid #e5e7eb;
-  border-radius: 10px;
-  padding: 14px 8px 10px;
+  border-radius: 0;
+  padding: 12px 10px 10px 12px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 8px;
   text-decoration: none;
   color: inherit;
-  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  transition: border-color 0.15s, box-shadow 0.15s;
   cursor: pointer;
 }
 
 .related-card:hover {
   border-color: #2563eb;
-  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.12);
-  transform: translateY(-2px);
+  box-shadow: 3px 3px 0 0 #2563eb;
 }
 
 .related-img-wrap {
@@ -832,7 +831,7 @@
   font-size: 11px;
   color: #6b7280;
   line-height: 1.4;
-  text-align: center;
+  text-align: left;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -1055,7 +1054,7 @@
   padding: 12px 24px;
   background: #2563eb;
   color: #fff !important;
-  border-radius: 8px;
+  border-radius: 0;
   font-size: 15px;
   font-weight: 600;
   text-decoration: none !important;
@@ -1069,32 +1068,30 @@
 /* ─── Icon Card (updated) ─────────────────────────────────── */
 .icon-card {
   background: #ffffff;
-  border-radius: 10px;
+  border-radius: 0;
   border: 1px solid #e5e7eb;
   display: flex;
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  transition: border-color 0.15s, box-shadow 0.15s;
 }
 
 .icon-card:hover {
   border-color: #2563eb;
-  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.12);
-  transform: translateY(-2px);
+  box-shadow: 4px 4px 0 0 #2563eb;
 }
 
 .icon-card.in-compare {
-  border-color: #2563eb;
-  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.35);
+  border: 2px solid #2563eb;
 }
 
 .icon-card-link {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 10px;
-  padding: 18px 10px 10px;
+  padding: 14px 10px 8px 14px;
   text-decoration: none;
   color: inherit;
   cursor: pointer;
@@ -1143,7 +1140,8 @@
 
 .bg-dot.active {
   border-color: #2563eb;
-  box-shadow: 0 0 0 1.5px #2563eb;
+  outline: 1.5px solid #2563eb;
+  outline-offset: 1px;
 }
 
 .bg-dot-dark {
@@ -1182,7 +1180,7 @@
   justify-content: center;
   border: none;
   background: none;
-  border-radius: 5px;
+  border-radius: 0;
   cursor: pointer;
   color: #9ca3af;
   padding: 0;
@@ -1231,7 +1229,7 @@
 /* ─── Card Background Modes ───────────────────────────────── */
 .icon-img-wrapper.bg-dark {
   background: #1e293b;
-  border-radius: 8px;
+  border-radius: 0;
 }
 
 .icon-img-wrapper.bg-grid {
@@ -1243,7 +1241,7 @@
     linear-gradient(-45deg, transparent 75%, #d1d5db 75%);
   background-size: 8px 8px;
   background-position: 0 0, 0 4px, 4px -4px, -4px 0;
-  border-radius: 8px;
+  border-radius: 0;
 }
 
 /* ─── New Badge ────────────────────────────────────────────── */
@@ -1258,7 +1256,7 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding: 2px 5px;
-  border-radius: 4px;
+  border-radius: 0;
   line-height: 1.4;
   z-index: 1;
   pointer-events: none;
@@ -1277,7 +1275,7 @@
   font-weight: 700;
   background: #ef4444;
   color: #ffffff;
-  border-radius: 10px;
+  border-radius: 9999px;
   padding: 1px 5px;
   min-width: 16px;
   text-align: center;
@@ -1335,7 +1333,7 @@
   background: #1e293b;
   color: #ffffff;
   z-index: 400;
-  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.25);
+  border-top: 2px solid #0f172a;
   animation: slideUpPanel 0.2s ease;
 }
 
@@ -1381,7 +1379,7 @@
   height: 44px;
   object-fit: contain;
   background: #334155;
-  border-radius: 8px;
+  border-radius: 0;
   padding: 6px;
 }
 
@@ -1422,7 +1420,7 @@
   background: #2563eb;
   color: #ffffff;
   border: none;
-  border-radius: 8px;
+  border-radius: 0;
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
@@ -1443,7 +1441,7 @@
   background: transparent;
   color: #94a3b8;
   border: 1px solid #334155;
-  border-radius: 8px;
+  border-radius: 0;
   font-size: 13px;
   font-weight: 500;
   cursor: pointer;
@@ -1458,12 +1456,12 @@
 /* ─── Compare Modal ────────────────────────────────────────── */
 .compare-modal {
   background: #ffffff;
-  border-radius: 16px;
+  border-radius: 0;
   padding: 32px;
   width: 100%;
   max-width: 920px;
   position: relative;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 5px 0 0 #111827;
   animation: slideUp 0.18s ease;
   max-height: 90vh;
   overflow-y: auto;
@@ -1488,7 +1486,7 @@
 
 .compare-item {
   border: 1px solid #e5e7eb;
-  border-radius: 12px;
+  border-radius: 0;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -1500,7 +1498,7 @@
   align-items: center;
   justify-content: center;
   background: #f8fafc;
-  border-radius: 10px;
+  border-radius: 0;
   padding: 20px;
   margin-bottom: 8px;
   min-height: 120px;
@@ -1560,9 +1558,9 @@
 }
 
 .preview-bg-btn {
-  padding: 4px 10px;
+  padding: 4px 12px;
   border: 1px solid #d1d5db;
-  border-radius: 6px;
+  border-radius: 9999px;
   background: #ffffff;
   cursor: pointer;
   font-size: 12px;
@@ -1612,7 +1610,7 @@
   gap: 6px;
   padding: 7px 14px;
   border: 1px solid #e5e7eb;
-  border-radius: 8px;
+  border-radius: 0;
   background: #ffffff;
   cursor: pointer;
   font-size: 13px;
@@ -1705,7 +1703,7 @@
   background: #f8fafc;
   border: 1px solid #e5e7eb;
   border-top: none;
-  border-radius: 0 0 8px 8px;
+  border-radius: 0;
   padding: 14px 48px 14px 16px;
   font-family: 'Cascadia Code', 'Consolas', 'Monaco', monospace;
   font-size: 12.5px;
@@ -1723,7 +1721,7 @@
   padding: 4px 10px;
   background: #ffffff;
   border: 1px solid #d1d5db;
-  border-radius: 6px;
+  border-radius: 0;
   font-size: 11px;
   font-weight: 500;
   color: #6b7280;
