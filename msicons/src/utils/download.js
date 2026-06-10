@@ -10,9 +10,9 @@ export async function downloadSVG(svgPath, name) {
 }
 
 /**
- * Converts the SVG at `svgPath` to a PNG of `size × size` pixels and downloads it.
+ * Converts the SVG at `svgPath` to a PNG Blob of `size × size` pixels.
  */
-export async function downloadPNG(svgPath, name, size) {
+export async function svgToPngBlob(svgPath, size) {
   const response = await fetch(svgPath)
   if (!response.ok) throw new Error(`HTTP ${response.status}`)
   const svgText = await response.text()
@@ -28,7 +28,7 @@ export async function downloadPNG(svgPath, name, size) {
   const svgBlob = new Blob([modifiedSVG], { type: 'image/svg+xml' })
   const svgUrl = URL.createObjectURL(svgBlob)
 
-  await new Promise((resolve, reject) => {
+  return new Promise((resolve, reject) => {
     const img = new Image()
     img.onload = () => {
       const canvas = document.createElement('canvas')
@@ -38,10 +38,8 @@ export async function downloadPNG(svgPath, name, size) {
       ctx.drawImage(img, 0, 0, size, size)
       URL.revokeObjectURL(svgUrl)
       canvas.toBlob(pngBlob => {
-        const pngUrl = URL.createObjectURL(pngBlob)
-        triggerDownload(pngUrl, `${sanitizeName(name)}_${size}x${size}.png`)
-        URL.revokeObjectURL(pngUrl)
-        resolve()
+        if (pngBlob) resolve(pngBlob)
+        else reject(new Error('Failed to convert canvas to PNG'))
       }, 'image/png')
     }
     img.onerror = () => {
@@ -50,6 +48,16 @@ export async function downloadPNG(svgPath, name, size) {
     }
     img.src = svgUrl
   })
+}
+
+/**
+ * Converts the SVG at `svgPath` to a PNG of `size × size` pixels and downloads it.
+ */
+export async function downloadPNG(svgPath, name, size) {
+  const pngBlob = await svgToPngBlob(svgPath, size)
+  const pngUrl = URL.createObjectURL(pngBlob)
+  triggerDownload(pngUrl, `${sanitizeName(name)}_${size}x${size}.png`)
+  URL.revokeObjectURL(pngUrl)
 }
 
 function triggerDownload(url, filename) {

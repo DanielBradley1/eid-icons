@@ -1,3 +1,21 @@
+import { svgToPngBlob } from './download'
+
+/**
+ * Renders the SVG at `svgPath` as a `size × size` PNG and copies the
+ * image to the clipboard. Requires a secure context with Clipboard API
+ * image support (Chrome, Edge, Safari, Firefox 127+).
+ */
+export async function copyPNG(svgPath, size) {
+  if (!navigator.clipboard?.write || typeof ClipboardItem === 'undefined') {
+    throw new Error('Copying images is not supported in this browser')
+  }
+  // Pass a Promise<Blob> so the ClipboardItem is created synchronously
+  // within the user gesture (required by Safari).
+  await navigator.clipboard.write([
+    new ClipboardItem({ 'image/png': svgToPngBlob(svgPath, size) }),
+  ])
+}
+
 /**
  * Fetches an SVG file and copies its text content to the clipboard.
  * Falls back to execCommand('copy') for insecure contexts / older browsers.

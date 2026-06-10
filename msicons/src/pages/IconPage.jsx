@@ -5,7 +5,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { formatCategory, iconSlug as toSlug } from '../utils/format'
 import { downloadSVG, downloadPNG } from '../utils/download'
-import { copyText } from '../utils/clipboard'
+import { copyText, copyPNG } from '../utils/clipboard'
 import { useFavorites } from '../context/FavoritesContext'
 import { useCompare } from '../context/CompareContext'
 
@@ -20,6 +20,7 @@ function IconPage() {
 
   const [pngSize, setPngSize] = useState(64)
   const [status, setStatus] = useState('idle') // idle | downloading | done | error
+  const [copyStatus, setCopyStatus] = useState('idle') // idle | copying | done | error
   const [previewBg, setPreviewBg] = useState('white') // white | dark | grid
   const [codeTab, setCodeTab] = useState('React')
   const [embedSize, setEmbedSize] = useState(64)
@@ -143,6 +144,18 @@ function IconPage() {
     setTimeout(() => setStatus('idle'), 1500)
   }, [icon, pngSize])
 
+  const handleCopyPNG = useCallback(async () => {
+    if (!icon) return
+    setCopyStatus('copying')
+    try {
+      await copyPNG(icon.path, pngSize)
+      setCopyStatus('done')
+    } catch {
+      setCopyStatus('error')
+    }
+    setTimeout(() => setCopyStatus('idle'), 1500)
+  }, [icon, pngSize])
+
   const handleCodeCopy = useCallback(async () => {
     try {
       await copyText(codeSnippets[codeTab])
@@ -250,6 +263,9 @@ function IconPage() {
             {status === 'done' && (
               <p className="modal-status success">Download started!</p>
             )}
+            {copyStatus === 'error' && (
+              <p className="modal-status error">Copy failed. Your browser may not support copying images.</p>
+            )}
 
             <div className="icon-page-downloads">
               <div className="download-section">
@@ -288,6 +304,17 @@ function IconPage() {
                   disabled={status === 'downloading'}
                 >
                   {status === 'downloading' ? 'Downloading…' : `↓ Download PNG (${pngSize}px)`}
+                </button>
+                <button
+                  className="btn btn-secondary"
+                  onClick={handleCopyPNG}
+                  disabled={copyStatus === 'copying'}
+                >
+                  {copyStatus === 'copying'
+                    ? 'Copying…'
+                    : copyStatus === 'done'
+                      ? '✓ Copied!'
+                      : `⧉ Copy PNG (${pngSize}px)`}
                 </button>
               </div>
             </div>

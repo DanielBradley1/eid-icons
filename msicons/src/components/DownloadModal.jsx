@@ -1,12 +1,14 @@
 import { useState, useEffect, useCallback } from 'react'
 import { formatCategory } from '../utils/format'
 import { downloadSVG, downloadPNG } from '../utils/download'
+import { copyPNG } from '../utils/clipboard'
 
 const PNG_SIZES = [16, 24, 32, 48, 64, 128, 256, 512]
 
 function DownloadModal({ icon, onClose }) {
   const [pngSize, setPngSize] = useState(64)
   const [status, setStatus] = useState('idle') // idle | downloading | done | error
+  const [copyStatus, setCopyStatus] = useState('idle') // idle | copying | done | error
 
   // Close on Escape key
   useEffect(() => {
@@ -37,6 +39,17 @@ function DownloadModal({ icon, onClose }) {
     setTimeout(() => setStatus('idle'), 1500)
   }, [icon, pngSize])
 
+  const handleCopyPNG = useCallback(async () => {
+    setCopyStatus('copying')
+    try {
+      await copyPNG(icon.path, pngSize)
+      setCopyStatus('done')
+    } catch {
+      setCopyStatus('error')
+    }
+    setTimeout(() => setCopyStatus('idle'), 1500)
+  }, [icon, pngSize])
+
   return (
     <div className="modal-overlay" onClick={onClose} role="dialog" aria-modal="true" aria-label="Download icon">
       <div className="modal" onClick={e => e.stopPropagation()}>
@@ -57,6 +70,9 @@ function DownloadModal({ icon, onClose }) {
         )}
         {status === 'done' && (
           <p className="modal-status success">Download started!</p>
+        )}
+        {copyStatus === 'error' && (
+          <p className="modal-status error">Copy failed. Your browser may not support copying images.</p>
         )}
 
         <div className="modal-actions">
@@ -99,6 +115,17 @@ function DownloadModal({ icon, onClose }) {
               disabled={status === 'downloading'}
             >
               {status === 'downloading' ? 'Downloading…' : `↓ Download ${pngSize}×${pngSize} PNG`}
+            </button>
+            <button
+              className="btn btn-secondary"
+              onClick={handleCopyPNG}
+              disabled={copyStatus === 'copying'}
+            >
+              {copyStatus === 'copying'
+                ? 'Copying…'
+                : copyStatus === 'done'
+                  ? '✓ Copied!'
+                  : `⧉ Copy ${pngSize}×${pngSize} PNG`}
             </button>
           </div>
         </div>
